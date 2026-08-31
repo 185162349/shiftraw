@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARW to WebP Converter — Free, No Upload, Unlimited | ShiftRaw</title>
+  <meta name="description" content="Convert Sony ARW RAW photos to WebP online free. 25–35% smaller than JPG, no upload, no watermark — 100% in your browser.">
+  <link rel="canonical" href="https://shiftraw.com/arw-to-webp/">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ShiftRaw">
+  <meta property="og:title" content="ARW to WebP Converter — Free, No Upload, Unlimited | ShiftRaw">
+  <meta property="og:description" content="Convert Sony ARW RAW photos to WebP online free. 25–35% smaller than JPG, no upload, no watermark — 100% in your browser.">
+  <meta property="og:url" content="https://shiftraw.com/arw-to-webp/">
+  <meta property="og:image" content="https://shiftraw.com/assets/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ARW to WebP Converter — Free, No Upload, Unlimited | ShiftRaw">
+  <meta name="twitter:description" content="Convert Sony ARW RAW photos to WebP online free. 25–35% smaller than JPG, no upload, no watermark — 100% in your browser.">
+  <meta name="twitter:image" content="https://shiftraw.com/assets/og.jpg">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"ShiftRaw ARW to WebP Converter","url":"https://shiftraw.com/arw-to-webp/","applicationCategory":"MultimediaApplication","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Convert Sony ARW RAW photos to WebP online free. 25–35% smaller than JPG, no upload, no watermark — 100% in your browser."}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does ARW stand for?","acceptedAnswer":{"@type":"Answer","text":"Alpha Raw — Sony\u0027s RAW image format for the Alpha camera system. You may also encounter SRF and SR2 files from earlier Sony DSLRs; those are supported here too."}},{"@type":"Question","name":"Why are my ARW files 80 MB or larger?","acceptedAnswer":{"@type":"Answer","text":"High-resolution bodies like the a7R V store 61 megapixels at 14-bit depth, and if your camera is set to Uncompressed RAW the files balloon to 120+ MB. Switching the camera to Lossless Compressed cuts size roughly in half with no quality loss; converting to JPG shrinks delivery files by 90%."}},{"@type":"Question","name":"Can I convert ARW to JPG on any computer?","acceptedAnswer":{"@type":"Answer","text":"Yes — that\u0027s the point of ShiftRaw. The decoder is compiled to WebAssembly and runs in any modern browser (Chrome, Edge, Firefox, Safari). No Sony software, no Capture One, no installation."}},{"@type":"Question","name":"Will the conversion keep my Sony colors?","acceptedAnswer":{"@type":"Answer","text":"The converter applies the white balance your camera recorded at capture time and outputs standard sRGB. Because Sony\u0027s JPEG engine adds its own creative styling on top of raw data, expect a clean, neutral rendering rather than an in-camera Creative Look — ideal as a base for further grading."}},{"@type":"Question","name":"Is WebP safe to use everywhere now?","acceptedAnswer":{"@type":"Answer","text":"On the web, yes — Chrome, Firefox, Safari and Edge all support it natively, and it now accounts for a large share of served images. Desktop software is the weak spot: older Photoshop, Office and viewer versions may not open it. For web use, choose WebP; for files that must open anywhere, choose JPG."}},{"@type":"Question","name":"Is there a file size or batch limit?","acceptedAnswer":{"@type":"Answer","text":"No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine\u0027s memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://shiftraw.com/"},{"@type":"ListItem","position":2,"name":"ARW to WebP","item":"https://shiftraw.com/arw-to-webp/"}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/" aria-label="ShiftRaw home">
+        <svg viewBox="0 0 32 32" fill="none"><rect x="2" y="6" width="28" height="20" rx="4" stroke="#f5a524" stroke-width="2.4"/><circle cx="16" cy="16" r="6" stroke="#f5a524" stroke-width="2.4"/><circle cx="25" cy="10.5" r="1.6" fill="#f5a524"/></svg>
+        <span>Shift<span class="accent">Raw</span></span>
+      </a>
+      <nav class="main-nav">
+        <a href="/#tools">All Tools</a>
+        <a href="/#how-it-works">How It Works</a>
+        <a href="/#faq">FAQ</a>
+        <a href="/about/">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="tool-head">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › ARW to WebP</nav>
+        <h1>ARW to WebP Converter</h1>
+        <p class="subtitle">Free, unlimited and 100% private - turn your ARW files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.</p>
+      </div>
+
+      <div class="converter-wrap">
+        <div id="converter" class="converter" data-source="arw" data-target="webp">
+          <div class="drop-zone" id="dropZone" tabindex="0" role="button" aria-label="Upload files">
+            <svg class="dz-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 16V4m0 0 4 4m-4-4L8 8"/><path d="M4 15v3a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-3"/></svg>
+            <p class="dz-title" id="dzTitle">Drop your ARW files here</p>
+            <p class="dz-sub">or <button class="btn-link" id="browseBtn" type="button">browse your files</button></p>
+            <p class="dz-note">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+              100% private — files are converted in your browser and never uploaded to any server.
+            </p>
+            <input type="file" id="fileInput" multiple hidden>
+          </div>
+          <div class="conv-options" id="optionsRow" hidden>
+            <label>Output format
+              <select id="fmtSelect" aria-label="Output format">
+                <option value="jpg">JPG</option>
+                <option value="png">PNG</option>
+                <option value="webp">WebP</option>
+              </select>
+            </label>
+            <label id="qualityWrap">Quality
+              <input type="range" id="qualityInput" min="0.5" max="0.95" step="0.05" value="0.92">
+              <span id="qval">92%</span>
+            </label>
+            <div class="options-actions">
+              <button class="btn btn-secondary" id="clearBtn" type="button">Clear all</button>
+              <button class="btn" id="downloadAllBtn" type="button" disabled>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 4v12m0 0 4-4m-4 4-4-4"/><path d="M4 19h16"/></svg>
+                Download all
+              </button>
+            </div>
+            <p class="progress-note" id="progressNote" hidden></p>
+          </div>
+          <div class="file-list" id="fileList"></div>
+        </div>
+      </div>
+
+      <article class="section prose">
+        <h2>Why convert ARW to </h2>
+      <p>ARW (Alpha RAW) is Sony's RAW format, written by every camera in the Alpha line — the a7 and a9 full-frame mirrorless bodies that dominate the market, the APS-C a6000 series, and older Alpha DSLRs and SLTs. An ARW file contains 12- or 14-bit sensor data plus Sony's rich metadata, in lossy-compressed, lossless-compressed or uncompressed variants depending on your camera menu settings.</p>
+      <p>Sony's file naming (DSC01234.ARW) makes batches easy to accumulate and hard to deliver: clients, galleries and social platforms universally expect JPG, PNG or WebP.</p>
+      <p>ShiftRaw converts ARW to WebP entirely in your browser. A WebAssembly build of LibRaw handles the decoding with your camera's white balance applied, so your photos stay on your machine from start to finish.</p>
+      <p><strong>Best for:</strong> WebP is the modern option: 25–35% smaller than JPG at the same visual quality, with alpha-channel support, and every current browser displays it. If your images are headed for the web — a site, blog, or web app — WebP is the best-performing choice and has been natively supported across all major browsers since 2020.</p>
+      </article>
+
+      <section class="section section-alt" id="how-it-works">
+        <div class="container">
+          <div class="section-head">
+            <h2>How to convert ARW to WebP</h2>
+            <p>Three steps, about ten seconds — no software to install, no account to create.</p>
+          </div>
+          <div class="steps-grid">
+            <div class="step-card"><div class="step-num">1</div><h3>Step 1</h3><p>Drop your .arw files onto the box above — a7, a9, a6000-series and legacy Alpha files all supported.</p></div>
+            <div class="step-card"><div class="step-num">2</div><h3>Step 2</h3><p>Choose output format and quality; the RAW engine loads once and then converts as fast as your CPU allows, with zero uploads.</p></div>
+            <div class="step-card"><div class="step-num">3</div><h3>Step 3</h3><p>Grab your WebP files individually or all at once with Download all.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>About the ARW format</h2>
+          </div>
+          <div class="features-grid">
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Developer</h3><p>Sony Corporation</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Introduced</h3><p>2006, with the Alpha DSLR-A100</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Container</h3><p>TIFF-based structure with Sony MakerNote data</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Color depth</h3><p>12-bit or 14-bit per channel</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Typical size</h3><p>24 MB (a7 III) to 125 MB uncompressed (a7R V)</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Written by</h3><p>a7/a9 full-frame, a6000-series APS-C, a1</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Compression</h3><p>Uncompressed, lossless or lossy, menu-selected</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="faq">
+        <div class="container">
+          <div class="section-head">
+            <h2>Frequently asked questions</h2>
+          </div>
+          <div class="faq-list">
+            <details class="faq-item"><summary>What does ARW stand for?</summary><div class="faq-a">Alpha Raw — Sony's RAW image format for the Alpha camera system. You may also encounter SRF and SR2 files from earlier Sony DSLRs; those are supported here too.</div></details>
+            <details class="faq-item"><summary>Why are my ARW files 80 MB or larger?</summary><div class="faq-a">High-resolution bodies like the a7R V store 61 megapixels at 14-bit depth, and if your camera is set to Uncompressed RAW the files balloon to 120+ MB. Switching the camera to Lossless Compressed cuts size roughly in half with no quality loss; converting to JPG shrinks delivery files by 90%.</div></details>
+            <details class="faq-item"><summary>Can I convert ARW to JPG on any computer?</summary><div class="faq-a">Yes — that's the point of ShiftRaw. The decoder is compiled to WebAssembly and runs in any modern browser (Chrome, Edge, Firefox, Safari). No Sony software, no Capture One, no installation.</div></details>
+            <details class="faq-item"><summary>Will the conversion keep my Sony colors?</summary><div class="faq-a">The converter applies the white balance your camera recorded at capture time and outputs standard sRGB. Because Sony's JPEG engine adds its own creative styling on top of raw data, expect a clean, neutral rendering rather than an in-camera Creative Look — ideal as a base for further grading.</div></details>
+            <details class="faq-item"><summary>Is WebP safe to use everywhere now?</summary><div class="faq-a">On the web, yes — Chrome, Firefox, Safari and Edge all support it natively, and it now accounts for a large share of served images. Desktop software is the weak spot: older Photoshop, Office and viewer versions may not open it. For web use, choose WebP; for files that must open anywhere, choose JPG.</div></details>
+            <details class="faq-item"><summary>Is there a file size or batch limit?</summary><div class="faq-a">No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.</div></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Related converters</h2>
+          </div>
+          <div class="related-grid">
+            <a href="/arw-to-jpg/">ARW to JPG<span class="arr">→</span></a>
+            <a href="/arw-to-png/">ARW to PNG<span class="arr">→</span></a>
+            <a href="/cr2-to-webp/">CR2 to WebP<span class="arr">→</span></a>
+            <a href="/cr3-to-webp/">CR3 to WebP<span class="arr">→</span></a>
+            <a href="/nef-to-webp/">NEF to WebP<span class="arr">→</span></a>
+            <a href="/dng-to-webp/">DNG to WebP<span class="arr">→</span></a>
+            <a href="/raf-to-webp/">RAF to WebP<span class="arr">→</span></a>
+            <a href="/raw-to-webp/">RAW to WebP<span class="arr">→</span></a>
+            <a href="/heic-to-webp/">HEIC to WebP<span class="arr">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <div class="cta-box">
+        <h2>Ready to convert your ARW files?</h2>
+        <p>Free, unlimited and private — everything runs right here in your browser.</p>
+        <a class="btn" href="#converter">Convert now</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="/">
+            <svg viewBox="0 0 32 32" fill="none"><rect x="2" y="6" width="28" height="20" rx="4" stroke="#f5a524" stroke-width="2.4"/><circle cx="16" cy="16" r="6" stroke="#f5a524" stroke-width="2.4"/><circle cx="25" cy="10.5" r="1.6" fill="#f5a524"/></svg>
+            <span>Shift<span class="accent">Raw</span></span>
+          </a>
+          <p>Free browser-based converters for camera RAW, HEIC and WebP photos. Your files never leave your device — conversion happens 100% locally.</p>
+        </div>
+        <div>
+          <h4>Popular tools</h4>
+          <ul>
+            <li><a href="/cr2-to-jpg/">CR2 to JPG</a></li>
+            <li><a href="/cr3-to-jpg/">CR3 to JPG</a></li>
+            <li><a href="/nef-to-jpg/">NEF to JPG</a></li>
+            <li><a href="/arw-to-jpg/">ARW to JPG</a></li>
+            <li><a href="/dng-to-jpg/">DNG to JPG</a></li>
+            <li><a href="/heic-to-jpg/">HEIC to JPG</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/privacy/">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 ShiftRaw. All rights reserved.</span>
+        <span>Made for photographers, powered by WebAssembly.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/converter.js" defer></script>
+</body>
+</html>

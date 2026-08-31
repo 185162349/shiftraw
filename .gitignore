@@ -1,0 +1,20 @@
+# 构建工具与本地开发文件
+build/
+
+# 测试样本（体积大，勿入库）
+*.ARW
+*.CR2
+*.CR3
+*.NEF
+*.DNG
+*.RAF
+*.HEIC
+test-sample*
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/

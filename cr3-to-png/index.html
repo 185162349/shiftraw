@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CR3 to PNG Converter — Free, Lossless, No Upload | ShiftRaw</title>
+  <meta name="description" content="Convert Canon CR3 RAW photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.">
+  <link rel="canonical" href="https://shiftraw.com/cr3-to-png/">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ShiftRaw">
+  <meta property="og:title" content="CR3 to PNG Converter — Free, Lossless, No Upload | ShiftRaw">
+  <meta property="og:description" content="Convert Canon CR3 RAW photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.">
+  <meta property="og:url" content="https://shiftraw.com/cr3-to-png/">
+  <meta property="og:image" content="https://shiftraw.com/assets/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CR3 to PNG Converter — Free, Lossless, No Upload | ShiftRaw">
+  <meta name="twitter:description" content="Convert Canon CR3 RAW photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.">
+  <meta name="twitter:image" content="https://shiftraw.com/assets/og.jpg">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"ShiftRaw CR3 to PNG Converter","url":"https://shiftraw.com/cr3-to-png/","applicationCategory":"MultimediaApplication","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Convert Canon CR3 RAW photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser."}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What\u0027s the difference between CR3 and C-RAW?","acceptedAnswer":{"@type":"Answer","text":"C-RAW is a compressed flavor stored inside a CR3 file. A standard CR3 from a 45 MP R5 is about 45 MB; the same frame as C-RAW is roughly 27 MB with minimal visible difference. Both decode identically in ShiftRaw — just drop the file in and convert."}},{"@type":"Question","name":"Can I convert CR3 to JPG without Lightroom or DPP?","acceptedAnswer":{"@type":"Answer","text":"Yes. ShiftRaw decodes CR3 in your browser using a WebAssembly build of LibRaw, so there is nothing to install and no subscription to buy. Lightroom remains the tool for developing and cataloguing, but for a quick, full-quality JPG export this is faster."}},{"@type":"Question","name":"Why are my CR3 files so large?","acceptedAnswer":{"@type":"Answer","text":"Modern Canon sensors are 24–45 megapixels and RAW stores every photosite at 14-bit depth before compression. Large files are the price of latitude in editing. Converting to JPG typically shrinks an R5 frame from ~45 MB to 5–10 MB while keeping web-sharp quality."}},{"@type":"Question","name":"Is CR3 going away?","acceptedAnswer":{"@type":"Answer","text":"Not soon. It is Canon\u0027s only current RAW format across both EOS R and EOS M lines. Canon has not announced a successor, so a CR3 workflow — including converting to JPG for delivery — will stay relevant for years."}},{"@type":"Question","name":"When is PNG worth the larger file size?","acceptedAnswer":{"@type":"Answer","text":"When you need a pixel-perfect lossless copy, transparency, or plan to re-edit and re-save the file — PNG survives round-trips without quality loss. For straightforward photo sharing, JPG at high quality looks identical at a fraction of the size."}},{"@type":"Question","name":"Is there a file size or batch limit?","acceptedAnswer":{"@type":"Answer","text":"No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine\u0027s memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://shiftraw.com/"},{"@type":"ListItem","position":2,"name":"CR3 to PNG","item":"https://shiftraw.com/cr3-to-png/"}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/" aria-label="ShiftRaw home">
+        <svg viewBox="0 0 32 32" fill="none"><rect x="2" y="6" width="28" height="20" rx="4" stroke="#f5a524" stroke-width="2.4"/><circle cx="16" cy="16" r="6" stroke="#f5a524" stroke-width="2.4"/><circle cx="25" cy="10.5" r="1.6" fill="#f5a524"/></svg>
+        <span>Shift<span class="accent">Raw</span></span>
+      </a>
+      <nav class="main-nav">
+        <a href="/#tools">All Tools</a>
+        <a href="/#how-it-works">How It Works</a>
+        <a href="/#faq">FAQ</a>
+        <a href="/about/">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="tool-head">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › CR3 to PNG</nav>
+        <h1>CR3 to PNG Converter</h1>
+        <p class="subtitle">Free, unlimited and 100% private - convert your CR3 files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.</p>
+      </div>
+
+      <div class="converter-wrap">
+        <div id="converter" class="converter" data-source="cr3" data-target="png">
+          <div class="drop-zone" id="dropZone" tabindex="0" role="button" aria-label="Upload files">
+            <svg class="dz-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 16V4m0 0 4 4m-4-4L8 8"/><path d="M4 15v3a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-3"/></svg>
+            <p class="dz-title" id="dzTitle">Drop your CR3 files here</p>
+            <p class="dz-sub">or <button class="btn-link" id="browseBtn" type="button">browse your files</button></p>
+            <p class="dz-note">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+              100% private — files are converted in your browser and never uploaded to any server.
+            </p>
+            <input type="file" id="fileInput" multiple hidden>
+          </div>
+          <div class="conv-options" id="optionsRow" hidden>
+            <label>Output format
+              <select id="fmtSelect" aria-label="Output format">
+                <option value="jpg">JPG</option>
+                <option value="png">PNG</option>
+                <option value="webp">WebP</option>
+              </select>
+            </label>
+            <label id="qualityWrap">Quality
+              <input type="range" id="qualityInput" min="0.5" max="0.95" step="0.05" value="0.92">
+              <span id="qval">92%</span>
+            </label>
+            <div class="options-actions">
+              <button class="btn btn-secondary" id="clearBtn" type="button">Clear all</button>
+              <button class="btn" id="downloadAllBtn" type="button" disabled>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 4v12m0 0 4-4m-4 4-4-4"/><path d="M4 19h16"/></svg>
+                Download all
+              </button>
+            </div>
+            <p class="progress-note" id="progressNote" hidden></p>
+          </div>
+          <div class="file-list" id="fileList"></div>
+        </div>
+      </div>
+
+      <article class="section prose">
+        <h2>Why convert CR3 to </h2>
+      <p>CR3 is Canon's current RAW format, introduced in 2018 with the EOS M50 and used by every EOS R-series mirrorless camera since — the R5, R6, R7, R50, R100 and the rest. It replaces the older TIFF-based CR2 with a modern ISO Base Media File Format container (the same family as MP4), which enabled Canon's smaller C-RAW compressed variant.</p>
+      <p>If you shoot an EOS R body you already know the friction: a full-frame CR3 from an R5 is 45 megapixels and roughly 45 MB, and while Adobe apps and Canon's DPP handle CR3 well, plenty of websites, chat apps, client portals and older laptops simply refuse it.</p>
+      <p>Converting CR3 to PNG with ShiftRaw happens entirely inside your browser — the decoding is done by a WebAssembly build of LibRaw, the camera's white balance is applied automatically, and your full-resolution photos never leave your machine.</p>
+      <p><strong>Best for:</strong> PNG is lossless — every pixel of the converted image is preserved exactly, with no compression artifacts, and it supports full alpha transparency. The trade-off is size: expect files 3–10× larger than an equivalent JPG. Choose PNG when quality is non-negotiable, when you need transparency, or when the image will be edited further before final delivery.</p>
+      </article>
+
+      <section class="section section-alt" id="how-it-works">
+        <div class="container">
+          <div class="section-head">
+            <h2>How to convert CR3 to PNG</h2>
+            <p>Three steps, about ten seconds — no software to install, no account to create.</p>
+          </div>
+          <div class="steps-grid">
+            <div class="step-card"><div class="step-num">1</div><h3>Step 1</h3><p>Drop your .cr3 files onto the box above — R5, R6, R7 or R100 files all work, batches included.</p></div>
+            <div class="step-card"><div class="step-num">2</div><h3>Step 2</h3><p>Choose the output format and quality. Decoding runs locally in your browser via WebAssembly; no upload, no queue, no watermark.</p></div>
+            <div class="step-card"><div class="step-num">3</div><h3>Step 3</h3><p>Hit Download all and your PNG files land in your downloads folder, full resolution, no sign-up.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>About the CR3 format</h2>
+          </div>
+          <div class="features-grid">
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Developer</h3><p>Canon Inc.</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Introduced</h3><p>2018, with the EOS M50</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Container</h3><p>ISO Base Media File Format (MP4 family)</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Color depth</h3><p>12-bit or 14-bit per channel</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Typical size</h3><p>30–48 MB full-frame; ~40% smaller as C-RAW</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Written by</h3><p>EOS R5, R6, R6 II, R7, R8, R50, R100, M50, 90D</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Difference from CR2</h3><p>New container + optional C-RAW compression</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="faq">
+        <div class="container">
+          <div class="section-head">
+            <h2>Frequently asked questions</h2>
+          </div>
+          <div class="faq-list">
+            <details class="faq-item"><summary>What's the difference between CR3 and C-RAW?</summary><div class="faq-a">C-RAW is a compressed flavor stored inside a CR3 file. A standard CR3 from a 45 MP R5 is about 45 MB; the same frame as C-RAW is roughly 27 MB with minimal visible difference. Both decode identically in ShiftRaw — just drop the file in and convert.</div></details>
+            <details class="faq-item"><summary>Can I convert CR3 to JPG without Lightroom or DPP?</summary><div class="faq-a">Yes. ShiftRaw decodes CR3 in your browser using a WebAssembly build of LibRaw, so there is nothing to install and no subscription to buy. Lightroom remains the tool for developing and cataloguing, but for a quick, full-quality JPG export this is faster.</div></details>
+            <details class="faq-item"><summary>Why are my CR3 files so large?</summary><div class="faq-a">Modern Canon sensors are 24–45 megapixels and RAW stores every photosite at 14-bit depth before compression. Large files are the price of latitude in editing. Converting to JPG typically shrinks an R5 frame from ~45 MB to 5–10 MB while keeping web-sharp quality.</div></details>
+            <details class="faq-item"><summary>Is CR3 going away?</summary><div class="faq-a">Not soon. It is Canon's only current RAW format across both EOS R and EOS M lines. Canon has not announced a successor, so a CR3 workflow — including converting to JPG for delivery — will stay relevant for years.</div></details>
+            <details class="faq-item"><summary>When is PNG worth the larger file size?</summary><div class="faq-a">When you need a pixel-perfect lossless copy, transparency, or plan to re-edit and re-save the file — PNG survives round-trips without quality loss. For straightforward photo sharing, JPG at high quality looks identical at a fraction of the size.</div></details>
+            <details class="faq-item"><summary>Is there a file size or batch limit?</summary><div class="faq-a">No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.</div></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Related converters</h2>
+          </div>
+          <div class="related-grid">
+            <a href="/cr3-to-jpg/">CR3 to JPG<span class="arr">→</span></a>
+            <a href="/cr3-to-webp/">CR3 to WebP<span class="arr">→</span></a>
+            <a href="/cr2-to-png/">CR2 to PNG<span class="arr">→</span></a>
+            <a href="/nef-to-png/">NEF to PNG<span class="arr">→</span></a>
+            <a href="/arw-to-png/">ARW to PNG<span class="arr">→</span></a>
+            <a href="/dng-to-png/">DNG to PNG<span class="arr">→</span></a>
+            <a href="/raf-to-png/">RAF to PNG<span class="arr">→</span></a>
+            <a href="/raw-to-png/">RAW to PNG<span class="arr">→</span></a>
+            <a href="/heic-to-png/">HEIC to PNG<span class="arr">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <div class="cta-box">
+        <h2>Ready to convert your CR3 files?</h2>
+        <p>Free, unlimited and private — everything runs right here in your browser.</p>
+        <a class="btn" href="#converter">Convert now</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="/">
+            <svg viewBox="0 0 32 32" fill="none"><rect x="2" y="6" width="28" height="20" rx="4" stroke="#f5a524" stroke-width="2.4"/><circle cx="16" cy="16" r="6" stroke="#f5a524" stroke-width="2.4"/><circle cx="25" cy="10.5" r="1.6" fill="#f5a524"/></svg>
+            <span>Shift<span class="accent">Raw</span></span>
+          </a>
+          <p>Free browser-based converters for camera RAW, HEIC and WebP photos. Your files never leave your device — conversion happens 100% locally.</p>
+        </div>
+        <div>
+          <h4>Popular tools</h4>
+          <ul>
+            <li><a href="/cr2-to-jpg/">CR2 to JPG</a></li>
+            <li><a href="/cr3-to-jpg/">CR3 to JPG</a></li>
+            <li><a href="/nef-to-jpg/">NEF to JPG</a></li>
+            <li><a href="/arw-to-jpg/">ARW to JPG</a></li>
+            <li><a href="/dng-to-jpg/">DNG to JPG</a></li>
+            <li><a href="/heic-to-jpg/">HEIC to JPG</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/privacy/">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 ShiftRaw. All rights reserved.</span>
+        <span>Made for photographers, powered by WebAssembly.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/converter.js" defer></script>
+</body>
+</html>

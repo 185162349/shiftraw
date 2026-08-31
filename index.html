@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShiftRaw — Free RAW, HEIC &amp; WebP Converter. No Upload, No Limits.</title>
+  <meta name="description" content="Convert camera RAW files (CR2, CR3, NEF, ARW, DNG, RAF), HEIC and WebP to JPG, PNG or WebP — free, unlimited and 100% private. Files never leave your browser.">
+  <link rel="canonical" href="https://shiftraw.com/">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ShiftRaw">
+  <meta property="og:title" content="ShiftRaw — Free RAW, HEIC &amp; WebP Converter">
+  <meta property="og:description" content="Convert camera RAW, HEIC and WebP photos to JPG, PNG or WebP — free, unlimited and 100% private. No upload, ever.">
+  <meta property="og:url" content="https://shiftraw.com/">
+  <meta property="og:image" content="https://shiftraw.com/assets/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ShiftRaw — Free RAW, HEIC &amp; WebP Converter">
+  <meta name="twitter:description" content="Convert camera RAW, HEIC and WebP photos to JPG, PNG or WebP — free, unlimited and 100% private.">
+  <meta name="twitter:image" content="https://shiftraw.com/assets/og.jpg">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"ShiftRaw","url":"https://shiftraw.com/","applicationCategory":"MultimediaApplication","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Free browser-based converter for camera RAW (CR2, CR3, NEF, ARW, DNG, RAF), HEIC and WebP photos. No upload, no watermark, unlimited use."}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/" aria-label="ShiftRaw home">
+        <svg viewBox="0 0 32 32" fill="none"><rect x="2" y="6" width="28" height="20" rx="4" stroke="#f5a524" stroke-width="2.4"/><circle cx="16" cy="16" r="6" stroke="#f5a524" stroke-width="2.4"/><circle cx="25" cy="10.5" r="1.6" fill="#f5a524"/></svg>
+        <span>Shift<span class="accent">Raw</span></span>
+      </a>
+      <nav class="main-nav">
+        <a href="/#tools">All Tools</a>
+        <a href="/#how-it-works">How It Works</a>
+        <a href="/#faq">FAQ</a>
+        <a href="/about/">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Your photos deserve better than<br><span class="accent">"this format isn't supported"</span></h1>
+        <p class="lead">Convert camera RAW, HEIC and WebP files to JPG, PNG or WebP — free, unlimited, and entirely in your browser. Your photos never touch a server.</p>
+        <div class="trust-badges">
+          <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/></svg>No upload — 100% private</span>
+          <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>No watermark, ever</span>
+          <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/></svg>Unlimited batch size</span>
+          <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>Free, no sign-up</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="container converter-wrap">
+      <div id="converter" class="converter" data-source="any" data-target="jpg">
+        <div class="drop-zone" id="dropZone" tabindex="0" role="button" aria-label="Upload files">
+          <svg class="dz-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 16V4m0 0 4 4m-4-4L8 8"/><path d="M4 15v3a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-3"/></svg>
+          <p class="dz-title" id="dzTitle">Drop your RAW, HEIC or WebP files here</p>
+          <p class="dz-sub">or <button class="btn-link" id="browseBtn" type="button">browse your files</button></p>
+          <p class="dz-note">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            100% private — files are converted in your browser and never uploaded to any server.
+          </p>
+          <input type="file" id="fileInput" multiple hidden>
+        </div>
+        <div class="conv-options" id="optionsRow" hidden>
+          <label>Output format
+            <select id="fmtSelect" aria-label="Output format">
+              <option value="jpg">JPG</option>
+              <option value="png">PNG</option>
+              <option value="webp">WebP</option>
+            </select>
+          </label>
+          <label id="qualityWrap">Quality
+            <input type="range" id="qualityInput" min="0.5" max="0.95" step="0.05" value="0.92">
+            <span id="qval">92%</span>
+          </label>
+          <div class="options-actions">
+            <button class="btn btn-secondary" id="clearBtn" type="button">Clear all</button>
+            <button class="btn" id="downloadAllBtn" type="button" disabled>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 4v12m0 0 4-4m-4 4-4-4"/><path d="M4 19h16"/></svg>
+              Download all
+            </button>
+          </div>
+          <p class="progress-note" id="progressNote" hidden></p>
+        </div>
+        <div class="file-list" id="fileList"></div>
+      </div>
+    </div>
+
+    <section class="section" id="formats">
+      <div class="container">
+        <div class="section-head">
+          <h2>Every format photographers actually shoot</h2>
+          <p>Canon, Nikon, Sony, Fujifilm, Adobe, Apple — plus a long tail of exotic RAW formats, all decoded by the same open-source engine.</p>
+        </div>
+        <div class="format-chips">
+          <a class="chip" href="/cr2-to-jpg/"><span class="dot"></span>CR2 <small>Canon</small></a>
+          <a class="chip" href="/cr3-to-jpg/"><span class="dot"></span>CR3 <small>Canon</small></a>
+          <a class="chip" href="/nef-to-jpg/"><span class="dot"></span>NEF <small>Nikon</small></a>
+          <a class="chip" href="/arw-to-jpg/"><span class="dot"></span>ARW <small>Sony</small></a>
+          <a class="chip" href="/dng-to-jpg/"><span class="dot"></span>DNG <small>Adobe</small></a>
+          <a class="chip" href="/raf-to-jpg/"><span class="dot"></span>RAF <small>Fujifilm</small></a>
+          <a class="chip" href="/heic-to-jpg/"><span class="dot"></span>HEIC <small>Apple</small></a>
+          <a class="chip" href="/webp-to-jpg/"><span class="dot"></span>WebP <small>Google</small></a>
+          <a class="chip" href="/raw-to-jpg/"><span class="dot"></span>ORF · RW2 · PEF +20 <small>and more</small></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Why ShiftRaw is different</h2>
+          <p>Most online converters upload your photos to a server, cap your batch, stamp a watermark — or all three. This one doesn't.</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            <h3>Truly private</h3>
+            <p>Decoding runs on your CPU via WebAssembly. Your photos never leave your device — it even keeps working offline once loaded.</p>
+          </div>
+          <div class="feature-card">
+            <svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 7V5a2 2 0 0 1 2-2h2M20 7V5a2 2 0 0 0-2-2h-2M4 17v2a2 2 0 0 0 2 2h2M20 17v2a2 2 0 0 1-2 2h-2"/><path d="M12 8v8m-4-4h8"/></svg>
+            <h3>No limits, no queue</h3>
+            <p>Unlimited files, unlimited conversions, no daily quota, no file-size paywall. Your hardware is the only limit.</p>
+          </div>
+          <div class="feature-card">
+            <svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/><circle cx="12" cy="12" r="4"/></svg>
+            <h3>Full resolution</h3>
+            <p>Every pixel your sensor captured, processed with the LibRaw engine and your camera's recorded white balance.</p>
+          </div>
+          <div class="feature-card">
+            <svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="m3 15 5-5 4 4 3-3 6 6"/></svg>
+            <h3>No watermark</h3>
+            <p>Clean output files. Free means free — not "free with a logo burned into the corner."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <div class="section-head">
+          <h2>How it works</h2>
+          <p>No installs, no accounts, no uploads. Three steps and about ten seconds.</p>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card"><div class="step-num">1</div><h3>Drop your files</h3><p>Drag any mix of RAW, HEIC or WebP files onto the converter — straight from a memory card, an iPhone export or a downloads folder.</p></div>
+          <div class="step-card"><div class="step-num">2</div><h3>Pick your output</h3><p>JPG for universal sharing, PNG for lossless copies, or WebP for the smallest web-ready files. Adjust quality if you care to.</p></div>
+          <div class="step-card"><div class="step-num">3</div><h3>Download</h3><p>Grab files individually or hit Download all. Nothing was uploaded, nothing is stored, nothing is analyzed.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="tools">
+      <div class="container">
+        <div class="section-head">
+          <h2>All converters</h2>
+          <p>Every pairing of source format and output — pick your camera brand.</p>
+        </div>
+        <div class="dir-group">
+          <h3>Canon</h3>
+          <div class="dir-links">
+            <a href="/cr2-to-jpg/">CR2 to JPG</a><a href="/cr2-to-png/">CR2 to PNG</a><a href="/cr2-to-webp/">CR2 to WebP</a>
+            <a href="/cr3-to-jpg/">CR3 to JPG</a><a href="/cr3-to-png/">CR3 to PNG</a><a href="/cr3-to-webp/">CR3 to WebP</a>
+          </div>
+        </div>
+        <div class="dir-group">
+          <h3>Nikon</h3>
+          <div class="dir-links">
+            <a href="/nef-to-jpg/">NEF to JPG</a><a href="/nef-to-png/">NEF to PNG</a><a href="/nef-to-webp/">NEF to WebP</a>
+          </div>
+        </div>
+        <div class="dir-group">
+          <h3>Sony</h3>
+          <div class="dir-links">
+            <a href="/arw-to-jpg/">ARW to JPG</a><a href="/arw-to-png/">ARW to PNG</a><a href="/arw-to-webp/">ARW to WebP</a>
+          </div>
+        </div>
+        <div class="dir-group">
+          <h3>Adobe &amp; Fujifilm</h3>
+          <div class="dir-links">
+            <a href="/dng-to-jpg/">DNG to JPG</a><a href="/dng-to-png/">DNG to PNG</a><a href="/dng-to-webp/">DNG to WebP</a>
+            <a href="/raf-to-jpg/">RAF to JPG</a><a href="/raf-to-png/">RAF to PNG</a><a href="/raf-to-webp/">RAF to WebP</a>
+          </div>
+        </div>
+        <div class="dir-group">
+          <h3>Apple &amp; Web</h3>
+          <div class="dir-links">
+            <a href="/heic-to-jpg/">HEIC to JPG</a><a href="/heic-to-png/">HEIC to PNG</a><a href="/heic-to-webp/">HEIC to WebP</a>
+            <a href="/webp-to-jpg/">WebP to JPG</a><a href="/webp-to-png/">WebP to PNG</a>
+          </div>
+        </div>
+        <div class="dir-group">
+          <h3>Any RAW</h3>
+          <div class="dir-links">
+            <a href="/raw-to-jpg/">RAW to JPG</a><a href="/raw-to-png/">RAW to PNG</a><a href="/raw-to-webp/">RAW to WebP</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head">
+          <h2>Frequently asked questions</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item"><summary>Are my photos really never uploaded?</summary><div class="faq-a">Really. The conversion engine is downloaded to your browser as WebAssembly and runs on your CPU. You can watch your network tab, or disconnect from the internet after the page loads — conversion keeps working. There is no server component, no storage, no analytics on your files.</div></details>
+          <details class="faq-item"><summary>Which RAW formats are supported?</summary><div class="faq-a">CR2, CR3, CRW (Canon), NEF, NRW (Nikon), ARW, SRF, SR2 (Sony), DNG (Adobe/Leica/Pentax/DJI), RAF (Fujifilm), RW2 (Panasonic), ORF (Olympus/OM System), PEF, PTX (Pentax), plus 3FR, FFF, IIQ, MRW, X3F, KDC, DCR, ERF, MEF, MOS and more — 20+ extensions in total, decoded by LibRaw.</div></details>
+          <details class="faq-item"><summary>Is there a file size limit or daily quota?</summary><div class="faq-a">No. Files are processed sequentially on your machine, so the practical limit is your device's memory — a 100 MP medium-format RAW decodes comfortably on any modern computer. There's no server bill to pass on to you, so there's no quota.</div></details>
+          <details class="faq-item"><summary>How is this free? What's the catch?</summary><div class="faq-a">No catch: there's no server-side processing cost to recover, because your device does the work. The site is supported by unobtrusive ads. No accounts, no watermarks, no premium tier hiding the good settings.</div></details>
+          <details class="faq-item"><summary>Does it work on mobile?</summary><div class="faq-a">Yes, in any modern mobile browser. Large RAW files (40+ MP) are slow on phones and can exhaust mobile memory — a desktop is more comfortable for big batches, but HEIC and WebP conversions fly on any phone, including an iPhone converting its own photos.</div></details>
+          <details class="faq-item"><summary>Is the quality as good as Lightroom's export?</summary><div class="faq-a">For a straight conversion, yes — the same open-source LibRaw engine processes the file with your camera's recorded white balance. What this doesn't do is develop: your Lightroom edits live in a catalog, not in the RAW file. Use ShiftRaw for unedited originals, Lightroom for developed exports.</div></details>
+        </div>
+      </div>
+    </section>
+
+    <div class="cta-box">
+      <h2>Got a folder full of RAW files?</h2>
+      <p>Drop them in. Free, unlimited, private — the way a converter should be.</p>
+      <a class="btn" href="#converter">Start converting</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="/">
+            <svg viewBox="0 0 32 32" fill="none"><rect x="2" y="6" width="28" height="20" rx="4" stroke="#f5a524" stroke-width="2.4"/><circle cx="16" cy="16" r="6" stroke="#f5a524" stroke-width="2.4"/><circle cx="25" cy="10.5" r="1.6" fill="#f5a524"/></svg>
+            <span>Shift<span class="accent">Raw</span></span>
+          </a>
+          <p>Free browser-based converters for camera RAW, HEIC and WebP photos. Your files never leave your device — conversion happens 100% locally.</p>
+        </div>
+        <div>
+          <h4>Popular tools</h4>
+          <ul>
+            <li><a href="/cr2-to-jpg/">CR2 to JPG</a></li>
+            <li><a href="/cr3-to-jpg/">CR3 to JPG</a></li>
+            <li><a href="/nef-to-jpg/">NEF to JPG</a></li>
+            <li><a href="/arw-to-jpg/">ARW to JPG</a></li>
+            <li><a href="/dng-to-jpg/">DNG to JPG</a></li>
+            <li><a href="/heic-to-jpg/">HEIC to JPG</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/privacy/">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 ShiftRaw. All rights reserved.</span>
+        <span>Made for photographers, powered by WebAssembly.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/converter.js" defer></script>
+</body>
+</html>

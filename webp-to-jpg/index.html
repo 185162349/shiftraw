@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WebP to JPG Converter — Free, No Upload, Unlimited | ShiftRaw</title>
+  <meta name="description" content="Convert WebP images to JPG online free. Instant, pixel-accurate, no upload, no watermark — works in any modern browser.">
+  <link rel="canonical" href="https://shiftraw.com/webp-to-jpg/">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ShiftRaw">
+  <meta property="og:title" content="WebP to JPG Converter — Free, No Upload, Unlimited | ShiftRaw">
+  <meta property="og:description" content="Convert WebP images to JPG online free. Instant, pixel-accurate, no upload, no watermark — works in any modern browser.">
+  <meta property="og:url" content="https://shiftraw.com/webp-to-jpg/">
+  <meta property="og:image" content="https://shiftraw.com/assets/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="WebP to JPG Converter — Free, No Upload, Unlimited | ShiftRaw">
+  <meta name="twitter:description" content="Convert WebP images to JPG online free. Instant, pixel-accurate, no upload, no watermark — works in any modern browser.">
+  <meta name="twitter:image" content="https://shiftraw.com/assets/og.jpg">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"ShiftRaw WebP to JPG Converter","url":"https://shiftraw.com/webp-to-jpg/","applicationCategory":"MultimediaApplication","operatingSystem":"Any (web browser)","browserRequirements":"Requires JavaScript","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Convert WebP images to JPG online free. Instant, pixel-accurate, no upload, no watermark — works in any modern browser."}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why can\u0027t I open WebP files in Photoshop or Word?","acceptedAnswer":{"@type":"Answer","text":"WebP support arrived in desktop software late — Photoshop only gained it in version 23.2 (2022), and many Office and viewer installs still lack the codec. Converting to JPG or PNG sidesteps the issue entirely."}},{"@type":"Question","name":"Will converting WebP to JPG make files bigger?","acceptedAnswer":{"@type":"Answer","text":"Yes, typically 25–40% bigger at similar visual quality — that\u0027s the efficiency you\u0027re trading away for compatibility. It\u0027s usually the right trade when a person or platform on the other end simply needs a standard file."}},{"@type":"Question","name":"Is WebP lossy or lossless?","acceptedAnswer":{"@type":"Answer","text":"Both — the format supports a lossy VP8 mode (the common case, comparable to JPEG) and a lossless VP8L mode. ShiftRaw handles either; the source encoding just affects how much additional loss a JPG conversion introduces."}},{"@type":"Question","name":"Does converting WebP to PNG lose quality?","acceptedAnswer":{"@type":"Answer","text":"No. PNG is lossless, so the pixels you get are exactly the pixels in the WebP file. The file will be larger — often several times larger — because PNG\u0027s compression is far less aggressive than WebP\u0027s."}},{"@type":"Question","name":"JPG or PNG — which should I choose?","acceptedAnswer":{"@type":"Answer","text":"JPG for photos: smaller files, universally supported, visually lossless at high quality. PNG for graphics that need transparency, screenshots, or when you must not lose a single pixel. For photographic work, JPG at 92% is the right call 95% of the time."}},{"@type":"Question","name":"Is there a file size or batch limit?","acceptedAnswer":{"@type":"Answer","text":"No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine\u0027s memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://shiftraw.com/"},{"@type":"ListItem","position":2,"name":"WebP to JPG","item":"https://shiftraw.com/webp-to-jpg/"}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/" aria-label="ShiftRaw home">
+        <svg viewBox="0 0 32 32" fill="none"><rect x="2" y="6" width="28" height="20" rx="4" stroke="#f5a524" stroke-width="2.4"/><circle cx="16" cy="16" r="6" stroke="#f5a524" stroke-width="2.4"/><circle cx="25" cy="10.5" r="1.6" fill="#f5a524"/></svg>
+        <span>Shift<span class="accent">Raw</span></span>
+      </a>
+      <nav class="main-nav">
+        <a href="/#tools">All Tools</a>
+        <a href="/#how-it-works">How It Works</a>
+        <a href="/#faq">FAQ</a>
+        <a href="/about/">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="tool-head">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> › WebP to JPG</nav>
+        <h1>WebP to JPG Converter</h1>
+        <p class="subtitle">Free, unlimited and 100% private - turn your WebP files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.</p>
+      </div>
+
+      <div class="converter-wrap">
+        <div id="converter" class="converter" data-source="webp" data-target="jpg">
+          <div class="drop-zone" id="dropZone" tabindex="0" role="button" aria-label="Upload files">
+            <svg class="dz-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 16V4m0 0 4 4m-4-4L8 8"/><path d="M4 15v3a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-3"/></svg>
+            <p class="dz-title" id="dzTitle">Drop your WebP files here</p>
+            <p class="dz-sub">or <button class="btn-link" id="browseBtn" type="button">browse your files</button></p>
+            <p class="dz-note">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+              100% private — files are converted in your browser and never uploaded to any server.
+            </p>
+            <input type="file" id="fileInput" multiple hidden>
+          </div>
+          <div class="conv-options" id="optionsRow" hidden>
+            <label>Output format
+              <select id="fmtSelect" aria-label="Output format">
+                <option value="jpg">JPG</option>
+                <option value="png">PNG</option>
+                <option value="webp">WebP</option>
+              </select>
+            </label>
+            <label id="qualityWrap">Quality
+              <input type="range" id="qualityInput" min="0.5" max="0.95" step="0.05" value="0.92">
+              <span id="qval">92%</span>
+            </label>
+            <div class="options-actions">
+              <button class="btn btn-secondary" id="clearBtn" type="button">Clear all</button>
+              <button class="btn" id="downloadAllBtn" type="button" disabled>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 4v12m0 0 4-4m-4 4-4-4"/><path d="M4 19h16"/></svg>
+                Download all
+              </button>
+            </div>
+            <p class="progress-note" id="progressNote" hidden></p>
+          </div>
+          <div class="file-list" id="fileList"></div>
+        </div>
+      </div>
+
+      <article class="section prose">
+        <h2>Why convert WebP to </h2>
+      <p>WebP is Google's image format, introduced in 2010 and now the default for much of the web — Chrome, Firefox, Safari and Edge all display it, and tools like Squoosh, cwebp and most CDN pipelines export it. WebP files are typically 25–35% smaller than a comparable JPEG, which is why it spread so fast.</p>
+      <p>The friction runs the other way: a pile of WebP downloads from the web won't open in older desktop software — Photoshop before 23.2, many Microsoft Office versions, older image viewers — and some upload forms, print shops and client workflows still demand a JPG or PNG.</p>
+      <p>ShiftRaw converts WebP to JPG entirely in your browser. Modern browsers decode WebP natively, so conversion is instant, pixel-accurate and completely private.</p>
+      <p><strong>Best for:</strong> JPG is the universal choice: every device, browser, app and platform displays it, and at 90%+ quality the compression is invisible. A 45-megapixel RAW frame converts to a 5–10 MB JPG that uploads anywhere. For web and client delivery it remains the sensible default — start here unless you specifically need transparency (PNG) or the smallest possible files (WebP).</p>
+      </article>
+
+      <section class="section section-alt" id="how-it-works">
+        <div class="container">
+          <div class="section-head">
+            <h2>How to convert WebP to JPG</h2>
+            <p>Three steps, about ten seconds — no software to install, no account to create.</p>
+          </div>
+          <div class="steps-grid">
+            <div class="step-card"><div class="step-num">1</div><h3>Step 1</h3><p>Drag your .webp files onto the box above — downloads, exports, whatever you've collected.</p></div>
+            <div class="step-card"><div class="step-num">2</div><h3>Step 2</h3><p>Choose JPG or PNG and adjust quality. Decoding uses your browser's native WebP support — instant and local.</p></div>
+            <div class="step-card"><div class="step-num">3</div><h3>Step 3</h3><p>Download your JPG files individually or as a batch.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>About the WebP format</h2>
+          </div>
+          <div class="features-grid">
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Developer</h3><p>Google</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Introduced</h3><p>September 2010</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Compression</h3><p>VP8 (lossy) or VP8L (lossless) intra-frame</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Size advantage</h3><p>25–35% smaller than JPEG at equal quality</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Extras</h3><p>Alpha transparency and animation support</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Browser support</h3><p>Universal since ~2020</p></div>
+            <div class="feature-card"><svg class="fi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg><h3>Weak spot</h3><p>Older desktop apps and some print workflows</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="faq">
+        <div class="container">
+          <div class="section-head">
+            <h2>Frequently asked questions</h2>
+          </div>
+          <div class="faq-list">
+            <details class="faq-item"><summary>Why can't I open WebP files in Photoshop or Word?</summary><div class="faq-a">WebP support arrived in desktop software late — Photoshop only gained it in version 23.2 (2022), and many Office and viewer installs still lack the codec. Converting to JPG or PNG sidesteps the issue entirely.</div></details>
+            <details class="faq-item"><summary>Will converting WebP to JPG make files bigger?</summary><div class="faq-a">Yes, typically 25–40% bigger at similar visual quality — that's the efficiency you're trading away for compatibility. It's usually the right trade when a person or platform on the other end simply needs a standard file.</div></details>
+            <details class="faq-item"><summary>Is WebP lossy or lossless?</summary><div class="faq-a">Both — the format supports a lossy VP8 mode (the common case, comparable to JPEG) and a lossless VP8L mode. ShiftRaw handles either; the source encoding just affects how much additional loss a JPG conversion introduces.</div></details>
+            <details class="faq-item"><summary>Does converting WebP to PNG lose quality?</summary><div class="faq-a">No. PNG is lossless, so the pixels you get are exactly the pixels in the WebP file. The file will be larger — often several times larger — because PNG's compression is far less aggressive than WebP's.</div></details>
+            <details class="faq-item"><summary>JPG or PNG — which should I choose?</summary><div class="faq-a">JPG for photos: smaller files, universally supported, visually lossless at high quality. PNG for graphics that need transparency, screenshots, or when you must not lose a single pixel. For photographic work, JPG at 92% is the right call 95% of the time.</div></details>
+            <details class="faq-item"><summary>Is there a file size or batch limit?</summary><div class="faq-a">No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.</div></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Related converters</h2>
+          </div>
+          <div class="related-grid">
+            <a href="/webp-to-png/">WebP to PNG<span class="arr">→</span></a>
+            <a href="/webp-to-webp/">WebP to WebP<span class="arr">→</span></a>
+            <a href="/cr2-to-jpg/">CR2 to JPG<span class="arr">→</span></a>
+            <a href="/cr3-to-jpg/">CR3 to JPG<span class="arr">→</span></a>
+            <a href="/nef-to-jpg/">NEF to JPG<span class="arr">→</span></a>
+            <a href="/arw-to-jpg/">ARW to JPG<span class="arr">→</span></a>
+            <a href="/dng-to-jpg/">DNG to JPG<span class="arr">→</span></a>
+            <a href="/raf-to-jpg/">RAF to JPG<span class="arr">→</span></a>
+            <a href="/raw-to-jpg/">RAW to JPG<span class="arr">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <div class="cta-box">
+        <h2>Ready to convert your WebP files?</h2>
+        <p>Free, unlimited and private — everything runs right here in your browser.</p>
+        <a class="btn" href="#converter">Convert now</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="/">
+            <svg viewBox="0 0 32 32" fill="none"><rect x="2" y="6" width="28" height="20" rx="4" stroke="#f5a524" stroke-width="2.4"/><circle cx="16" cy="16" r="6" stroke="#f5a524" stroke-width="2.4"/><circle cx="25" cy="10.5" r="1.6" fill="#f5a524"/></svg>
+            <span>Shift<span class="accent">Raw</span></span>
+          </a>
+          <p>Free browser-based converters for camera RAW, HEIC and WebP photos. Your files never leave your device — conversion happens 100% locally.</p>
+        </div>
+        <div>
+          <h4>Popular tools</h4>
+          <ul>
+            <li><a href="/cr2-to-jpg/">CR2 to JPG</a></li>
+            <li><a href="/cr3-to-jpg/">CR3 to JPG</a></li>
+            <li><a href="/nef-to-jpg/">NEF to JPG</a></li>
+            <li><a href="/arw-to-jpg/">ARW to JPG</a></li>
+            <li><a href="/dng-to-jpg/">DNG to JPG</a></li>
+            <li><a href="/heic-to-jpg/">HEIC to JPG</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/privacy/">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 ShiftRaw. All rights reserved.</span>
+        <span>Made for photographers, powered by WebAssembly.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/converter.js" defer></script>
+</body>
+</html>
