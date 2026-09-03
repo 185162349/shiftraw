@@ -7,6 +7,11 @@
   <meta name="description" content="Convert Adobe DNG files to JPG online free. Works with Leica, Pentax, DJI and Lightroom-converted DNGs. No upload, no watermark.">
   <link rel="canonical" href="https://shiftraw.com/dng-to-jpg/">
   <meta name="robots" content="index,follow">
+  <link rel="alternate" hreflang="en" href="https://shiftraw.com/dng-to-jpg/">
+  <link rel="alternate" hreflang="de" href="https://shiftraw.com/de/dng-zu-jpg/">
+  <link rel="alternate" hreflang="ko" href="https://shiftraw.com/ko/dng-to-jpg/">
+  <link rel="alternate" hreflang="ja" href="https://shiftraw.com/ja/dng-to-jpg/">
+  <link rel="alternate" hreflang="x-default" href="https://shiftraw.com/dng-to-jpg/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ShiftRaw">
   <meta property="og:title" content="DNG to JPG Converter — Free, No Upload, Unlimited | ShiftRaw">
@@ -34,7 +39,19 @@
         <a href="/#tools">All Tools</a>
         <a href="/#how-it-works">How It Works</a>
         <a href="/#faq">FAQ</a>
-        <a href="/about/">About</a>
+        <div class="lang-switch" aria-label="Language">
+          <button class="lang-btn" type="button" aria-haspopup="true" aria-expanded="false">
+            <svg class="globe" viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+            <span>English</span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="lang-menu" role="menu">
+            <a href="/dng-to-jpg/" hreflang="en" class="active" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>English</a>
+            <a href="/de/dng-zu-jpg/" hreflang="de" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Deutsch</a>
+            <a href="/ko/dng-to-jpg/" hreflang="ko" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>한국어</a>
+            <a href="/ja/dng-to-jpg/" hreflang="ja" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>日本語</a>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
@@ -85,7 +102,7 @@
       </div>
 
       <article class="section prose">
-        <h2>Why convert DNG to </h2>
+        <h2>Why convert DNG to JPG?</h2>
       <p>DNG (Digital Negative) is Adobe's open RAW format, published in 2004 as a standardized alternative to the zoo of proprietary camera formats. Some cameras write DNG natively — Leica, Pentax, Ricoh, DJI drones, most Blackmagic cinema cameras — and Lightroom can convert any proprietary RAW into DNG for archival.</p>
       <p>Being open does not make DNG files any easier to share: they are still raw sensor data, still large, and still ignored by anything that isn't photo software. If you archived your library as DNG and now need web-ready images, a converter is the bridge.</p>
       <p>ShiftRaw converts DNG to JPG in your browser with no upload. The LibRaw engine handles both linear and mosaic DNG variants, and your files never leave your device.</p>
@@ -204,5 +221,6 @@
   </footer>
 
   <script src="/assets/js/converter.js" defer></script>
+  <script src="/assets/js/lang-switch.js" defer></script>
 </body>
 </html>

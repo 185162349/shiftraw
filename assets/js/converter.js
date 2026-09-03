@@ -10,6 +10,73 @@
     target: root.dataset.target || "jpg",
   };
 
+  /* ---------- 运行时文案（按 <html lang> 自动选择） ---------- */
+  const LANG = (document.documentElement.lang || "en").slice(0, 2);
+  const EN = {
+    convertingN: (n, m) => `Converting ${n} of ${m}…`,
+    converting: "Converting…",
+    done: "Done",
+    failed: "Failed",
+    download: "Download",
+    smaller: " (smaller)",
+    conversionFailed: "Conversion failed",
+    rawDecodeFailed: "This RAW file could not be decoded (unsupported compression).",
+    unsupportedExt: (ext) => `."${ext}" files are not supported yet.`,
+    encodingFailed: "Encoding failed",
+    heicLoadFailed: "HEIC decoder failed to load",
+    badChannels: (c) => `Unsupported channel count: ${c}`,
+  };
+  const M = LANG === "en"
+    ? EN
+    : {
+        de: {
+          convertingN: (n, m) => `${n} von ${m} werden konvertiert…`,
+          converting: "Konvertierung…",
+          done: "Fertig",
+          failed: "Fehlgeschlagen",
+          download: "Herunterladen",
+          smaller: " (kleiner)",
+          conversionFailed: "Konvertierung fehlgeschlagen",
+          rawDecodeFailed: "Diese RAW-Datei konnte nicht dekodiert werden (nicht unterstützte Komprimierung).",
+          unsupportedExt: (ext) => `Dateien vom Typ „.${ext}“ werden noch nicht unterstützt.`,
+          encodingFailed: "Kodierung fehlgeschlagen",
+          heicLoadFailed: "HEIC-Decoder konnte nicht geladen werden",
+          badChannels: () => "Nicht unterstützte Kanalanzahl.",
+        },
+        ja: {
+          convertingN: (n, m) => `${m}件中${n}件を変換中…`,
+          converting: "変換中…",
+          done: "完了",
+          failed: "失敗",
+          download: "ダウンロード",
+          smaller: "（小さくなりました）",
+          conversionFailed: "変換に失敗しました",
+          rawDecodeFailed: "このRAWファイルはデコードできませんでした（非対応の圧縮形式）。",
+          unsupportedExt: (ext) => `「.${ext}」ファイルはまだ対応していません。`,
+          encodingFailed: "エンコードに失敗しました",
+          heicLoadFailed: "HEICデコーダーの読み込みに失敗しました",
+          badChannels: () => "サポートされていないチャンネル数です。",
+        },
+        ko: {
+          convertingN: (n, m) => `${m}개 중 ${n}개 변환 중…`,
+          converting: "변환 중…",
+          done: "완료",
+          failed: "실패",
+          download: "다운로드",
+          smaller: " (더 작아짐)",
+          conversionFailed: "변환 실패",
+          rawDecodeFailed: "이 RAW 파일을 디코딩할 수 없습니다(지원되지 않는 압축 형식).",
+          unsupportedExt: (ext) => `.${ext} 파일은 아직 지원되지 않습니다.`,
+          encodingFailed: "인코딩 실패",
+          heicLoadFailed: "HEIC 디코더를 로드하지 못했습니다",
+          badChannels: () => "지원되지 않는 채널 수입니다.",
+        },
+      }[LANG] || EN;
+  const msg = (k, ...a) => {
+    const v = M[k] != null ? M[k] : EN[k];
+    return typeof v === "function" ? v(...a) : v;
+  };
+
   /* ---------- 格式定义 ---------- */
   const RAW_EXTS = new Set([
     "cr2", "cr3", "crw", "nef", "nrw", "arw", "srf", "sr2", "dng",
@@ -63,8 +130,8 @@
       heicPromise = new Promise((resolve, reject) => {
         const s = document.createElement("script");
         s.src = "/assets/vendor/heic2any/heic2any.min.js";
-        s.onload = () => (window.heic2any ? resolve(window.heic2any) : reject(new Error("HEIC decoder failed to load")));
-        s.onerror = () => { heicPromise = null; reject(new Error("HEIC decoder failed to load")); };
+        s.onload = () => (window.heic2any ? resolve(window.heic2any) : reject(new Error(msg("heicLoadFailed"))));
+        s.onerror = () => { heicPromise = null; reject(new Error(msg("heicLoadFailed"))); };
         document.head.appendChild(s);
       });
     }
@@ -88,7 +155,7 @@
   function canvasToBlob(canvas, mime, quality) {
     return new Promise((resolve, reject) => {
       canvas.toBlob(
-        (b) => (b && b.type === mime ? resolve(b) : b ? resolve({ blob: b, fallback: true }) : reject(new Error("Encoding failed"))),
+        (b) => (b && b.type === mime ? resolve(b) : b ? resolve({ blob: b, fallback: true }) : reject(new Error(msg("encodingFailed")))),
         mime,
         quality
       );
@@ -123,7 +190,7 @@
     } else if (colors === 4) {
       rgba.set(data.subarray(0, rgba.length));
     } else {
-      throw new Error("Unsupported channel count: " + colors);
+      throw new Error(msg("badChannels", colors));
     }
     const id = new ImageData(rgba, width, height);
     return putToCanvas(width, height, (ctx) => ctx.putImageData(id, 0, 0));
@@ -156,7 +223,7 @@
           userQual: 3,         // 插值质量
         });
         const img = await raw.imageData();
-        if (!img || !img.data) throw new Error("This RAW file could not be decoded (unsupported compression).");
+        if (!img || !img.data) throw new Error(msg("rawDecodeFailed"));
         const canvas = rawToCanvas(img);
         const res = await canvasToBlob(canvas, t.mime, quality);
         return res.blob || res;
@@ -178,7 +245,7 @@
       return res.blob || res;
     }
 
-    throw new Error(`."${ext}" files are not supported yet.`);
+    throw new Error(msg("unsupportedExt", ext));
   }
 
   /* ---------- UI 渲染 ---------- */
@@ -194,7 +261,7 @@
         <div class="file-info"></div>
       </div>
       <div class="file-status"></div>
-      <button class="file-dl" hidden>Download</button>`;
+      <button class="file-dl" hidden>${msg("download")}</button>`;
     el.querySelector(".file-name").textContent = item.file.name;
     el.querySelector(".file-info").textContent = fmtSize(item.file.size);
     fileList.appendChild(el);
@@ -247,10 +314,10 @@
 
       const doneCount = items.filter((i) => i.status === "done" || i.status === "error").length + 1;
       progressNote.hidden = false;
-      progressNote.textContent = `Converting ${doneCount} of ${items.length}…`;
+      progressNote.textContent = msg("convertingN", doneCount, items.length);
 
       setCard(item, {
-        status: SPINNER + `<span>Converting…</span>`,
+        status: SPINNER + `<span>${msg("converting")}</span>`,
         info: `${fmtSize(item.file.size)} → ${t.label}`,
       });
 
@@ -263,15 +330,15 @@
         item.thumbUrl = URL.createObjectURL(blob);
         setCard(item, {
           thumb: item.thumbUrl,
-          info: `${fmtSize(item.file.size)} → <span class="ok">${fmtSize(blob.size)} ${t.label}</span>${shrink ? " (smaller)" : ""}`,
-          status: CHECK + `<span>Done</span>`,
+          info: `${fmtSize(item.file.size)} → <span class="ok">${fmtSize(blob.size)} ${t.label}</span>${shrink ? msg("smaller") : ""}`,
+          status: CHECK + `<span>${msg("done")}</span>`,
           dl: true,
         });
       } catch (err) {
         item.status = "error";
         setCard(item, {
-          info: `<span class="err">${err.message || "Conversion failed"}</span>`,
-          status: CROSS + `<span>Failed</span>`,
+          info: `<span class="err">${err.message || msg("conversionFailed")}</span>`,
+          status: CROSS + `<span>${msg("failed")}</span>`,
         });
       }
     }

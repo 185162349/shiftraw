@@ -1,0 +1,99 @@
+
+===== PAGE nef-to-jpg =====
+DESC: Convert Nikon NEF RAW photos to JPG online free. Works with D850, Z8, Z9 and every NEF. No upload, no watermark, unlimited batch.
+SUBTITLE: Free, unlimited and 100% private - turn your NEF files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your NEF files here
+PROSE_H2: Why convert NEF to 
+PROSE0: NEF (Nikon Electronic Format) is Nikon's RAW format, and one of the longest-lived in the industry — Nikon has been writing NEF files since the D1 in 1999, and the format lives on today in the Z-series mirrorless bodies. A NEF file stores 12- or 14-bit sensor readings along with Nikon's metadata for white balance, Picture Control and lens data.
+PROSE1: Nikon shooters accumulate NEFs by the thousand because the format is excellent for editing, but painful to share: stock Windows installations (outside Nikon's own NX Studio), most content platforms and every messaging app need a JPEG or PNG instead.
+PROSE2: ShiftRaw converts NEF to JPG directly in the browser. The LibRaw engine applies your camera's recorded white balance, processes the full-resolution frame, and outputs a clean file — your photos are never uploaded to any server.
+PROSE3: <strong>Best for:</strong> JPG is the universal choice: every device, browser, app and platform displays it, and at 90%+ quality the compression is invisible. A 45-megapixel RAW frame converts to a 5–10 MB JPG that uploads anywhere. For web and client delivery it remains the sensible default — start here unless you specifically need transparency (PNG) or the smallest possible files (WebP).
+STEP1: Drag your .nef files onto the box above — from a D750, D850, Z6, Z8 or any other NEF-writing Nikon.
+STEP2: Select JPG, PNG or WebP and adjust quality. Decoding happens on your device via WebAssembly — nothing is sent anywhere.
+STEP3: Download each JPG individually or use Download all for the whole batch.
+ABOUT_H2: About the NEF format
+CARD0 [Developer]: Nikon Corporation
+CARD1 [Introduced]: 1999, with the Nikon D1
+CARD2 [Container]: TIFF-based structure with Nikon MakerNote data
+CARD3 [Color depth]: 12-bit or 14-bit per channel
+CARD4 [Typical size]: 25–60 MB (Z9/Z8 45 MP files at the top end)
+CARD5 [Written by]: D1–D850 DSLRs, Z5/Z6/Z7/Z8/Z9 mirrorless
+CARD6 [Compression]: Lossless, lossy or uncompressed, camera-set
+FAQ0Q: What does NEF stand for?
+FAQ0A: Nikon Electronic Format. It is Nikon's proprietary RAW image format, storing unprocessed sensor data plus shooting metadata such as white balance, Picture Control settings and lens information.
+FAQ1Q: Do NEF files from the Z-series work here?
+FAQ1A: Yes. NEF files from the Z5, Z6, Z7, Z6II, Z7II, Z8 and Z9 all decode through the same LibRaw engine used by this converter, along with every Nikon DSLR NEF back to the D1 era.
+FAQ2Q: What's the best quality setting for NEF to JPG?
+FAQ2A: For sharing and web use, the default 92% JPG quality is visually indistinguishable from maximum at roughly half the file size. Choose 90%+ for client delivery, or switch to PNG when you need a lossless, uncompressed copy.
+FAQ3Q: Does converting NEF lose the edits from Capture NX or Lightroom?
+FAQ3A: Yes — those edits live in sidecar files or catalogs, not inside the NEF itself. ShiftRaw renders the original raw data with the camera's as-shot white balance. Finish your raw development first if you need developed results, or use ShiftRaw when you need quick, straight conversions of unedited files.
+FAQ4Q: JPG or PNG — which should I choose?
+FAQ4A: JPG for photos: smaller files, universally supported, visually lossless at high quality. PNG for graphics that need transparency, screenshots, or when you must not lose a single pixel. For photographic work, JPG at 92% is the right call 95% of the time.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
+
+===== PAGE nef-to-png =====
+DESC: Convert Nikon NEF RAW photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.
+SUBTITLE: Free, unlimited and 100% private - convert your NEF files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your NEF files here
+PROSE_H2: Why convert NEF to 
+PROSE0: NEF (Nikon Electronic Format) is Nikon's RAW format, and one of the longest-lived in the industry — Nikon has been writing NEF files since the D1 in 1999, and the format lives on today in the Z-series mirrorless bodies. A NEF file stores 12- or 14-bit sensor readings along with Nikon's metadata for white balance, Picture Control and lens data.
+PROSE1: Nikon shooters accumulate NEFs by the thousand because the format is excellent for editing, but painful to share: stock Windows installations (outside Nikon's own NX Studio), most content platforms and every messaging app need a JPEG or PNG instead.
+PROSE2: ShiftRaw converts NEF to PNG directly in the browser. The LibRaw engine applies your camera's recorded white balance, processes the full-resolution frame, and outputs a clean file — your photos are never uploaded to any server.
+PROSE3: <strong>Best for:</strong> PNG is lossless — every pixel of the converted image is preserved exactly, with no compression artifacts, and it supports full alpha transparency. The trade-off is size: expect files 3–10× larger than an equivalent JPG. Choose PNG when quality is non-negotiable, when you need transparency, or when the image will be edited further before final delivery.
+STEP1: Drag your .nef files onto the box above — from a D750, D850, Z6, Z8 or any other NEF-writing Nikon.
+STEP2: Select JPG, PNG or WebP and adjust quality. Decoding happens on your device via WebAssembly — nothing is sent anywhere.
+STEP3: Download each PNG individually or use Download all for the whole batch.
+ABOUT_H2: About the NEF format
+CARD0 [Developer]: Nikon Corporation
+CARD1 [Introduced]: 1999, with the Nikon D1
+CARD2 [Container]: TIFF-based structure with Nikon MakerNote data
+CARD3 [Color depth]: 12-bit or 14-bit per channel
+CARD4 [Typical size]: 25–60 MB (Z9/Z8 45 MP files at the top end)
+CARD5 [Written by]: D1–D850 DSLRs, Z5/Z6/Z7/Z8/Z9 mirrorless
+CARD6 [Compression]: Lossless, lossy or uncompressed, camera-set
+FAQ0Q: What does NEF stand for?
+FAQ0A: Nikon Electronic Format. It is Nikon's proprietary RAW image format, storing unprocessed sensor data plus shooting metadata such as white balance, Picture Control settings and lens information.
+FAQ1Q: Do NEF files from the Z-series work here?
+FAQ1A: Yes. NEF files from the Z5, Z6, Z7, Z6II, Z7II, Z8 and Z9 all decode through the same LibRaw engine used by this converter, along with every Nikon DSLR NEF back to the D1 era.
+FAQ2Q: What's the best quality setting for NEF to JPG?
+FAQ2A: For sharing and web use, the default 92% JPG quality is visually indistinguishable from maximum at roughly half the file size. Choose 90%+ for client delivery, or switch to PNG when you need a lossless, uncompressed copy.
+FAQ3Q: Does converting NEF lose the edits from Capture NX or Lightroom?
+FAQ3A: Yes — those edits live in sidecar files or catalogs, not inside the NEF itself. ShiftRaw renders the original raw data with the camera's as-shot white balance. Finish your raw development first if you need developed results, or use ShiftRaw when you need quick, straight conversions of unedited files.
+FAQ4Q: When is PNG worth the larger file size?
+FAQ4A: When you need a pixel-perfect lossless copy, transparency, or plan to re-edit and re-save the file — PNG survives round-trips without quality loss. For straightforward photo sharing, JPG at high quality looks identical at a fraction of the size.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
+
+===== PAGE nef-to-webp =====
+DESC: Convert Nikon NEF RAW photos to WebP online free. 25–35% smaller than JPG, no upload, no watermark — 100% in your browser.
+SUBTITLE: Free, unlimited and 100% private - turn your NEF files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your NEF files here
+PROSE_H2: Why convert NEF to 
+PROSE0: NEF (Nikon Electronic Format) is Nikon's RAW format, and one of the longest-lived in the industry — Nikon has been writing NEF files since the D1 in 1999, and the format lives on today in the Z-series mirrorless bodies. A NEF file stores 12- or 14-bit sensor readings along with Nikon's metadata for white balance, Picture Control and lens data.
+PROSE1: Nikon shooters accumulate NEFs by the thousand because the format is excellent for editing, but painful to share: stock Windows installations (outside Nikon's own NX Studio), most content platforms and every messaging app need a JPEG or PNG instead.
+PROSE2: ShiftRaw converts NEF to WebP directly in the browser. The LibRaw engine applies your camera's recorded white balance, processes the full-resolution frame, and outputs a clean file — your photos are never uploaded to any server.
+PROSE3: <strong>Best for:</strong> WebP is the modern option: 25–35% smaller than JPG at the same visual quality, with alpha-channel support, and every current browser displays it. If your images are headed for the web — a site, blog, or web app — WebP is the best-performing choice and has been natively supported across all major browsers since 2020.
+STEP1: Drag your .nef files onto the box above — from a D750, D850, Z6, Z8 or any other NEF-writing Nikon.
+STEP2: Select JPG, PNG or WebP and adjust quality. Decoding happens on your device via WebAssembly — nothing is sent anywhere.
+STEP3: Download each WebP individually or use Download all for the whole batch.
+ABOUT_H2: About the NEF format
+CARD0 [Developer]: Nikon Corporation
+CARD1 [Introduced]: 1999, with the Nikon D1
+CARD2 [Container]: TIFF-based structure with Nikon MakerNote data
+CARD3 [Color depth]: 12-bit or 14-bit per channel
+CARD4 [Typical size]: 25–60 MB (Z9/Z8 45 MP files at the top end)
+CARD5 [Written by]: D1–D850 DSLRs, Z5/Z6/Z7/Z8/Z9 mirrorless
+CARD6 [Compression]: Lossless, lossy or uncompressed, camera-set
+FAQ0Q: What does NEF stand for?
+FAQ0A: Nikon Electronic Format. It is Nikon's proprietary RAW image format, storing unprocessed sensor data plus shooting metadata such as white balance, Picture Control settings and lens information.
+FAQ1Q: Do NEF files from the Z-series work here?
+FAQ1A: Yes. NEF files from the Z5, Z6, Z7, Z6II, Z7II, Z8 and Z9 all decode through the same LibRaw engine used by this converter, along with every Nikon DSLR NEF back to the D1 era.
+FAQ2Q: What's the best quality setting for NEF to JPG?
+FAQ2A: For sharing and web use, the default 92% JPG quality is visually indistinguishable from maximum at roughly half the file size. Choose 90%+ for client delivery, or switch to PNG when you need a lossless, uncompressed copy.
+FAQ3Q: Does converting NEF lose the edits from Capture NX or Lightroom?
+FAQ3A: Yes — those edits live in sidecar files or catalogs, not inside the NEF itself. ShiftRaw renders the original raw data with the camera's as-shot white balance. Finish your raw development first if you need developed results, or use ShiftRaw when you need quick, straight conversions of unedited files.
+FAQ4Q: Is WebP safe to use everywhere now?
+FAQ4A: On the web, yes — Chrome, Firefox, Safari and Edge all support it natively, and it now accounts for a large share of served images. Desktop software is the weak spot: older Photoshop, Office and viewer versions may not open it. For web use, choose WebP; for files that must open anywhere, choose JPG.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.

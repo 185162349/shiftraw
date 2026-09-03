@@ -1,0 +1,99 @@
+
+===== PAGE arw-to-jpg =====
+DESC: Convert Sony ARW RAW photos to JPG online free. Works with a7, a9, a6000 series and more. No upload, no watermark, unlimited batch.
+SUBTITLE: Free, unlimited and 100% private - turn your ARW files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your ARW files here
+PROSE_H2: Why convert ARW to 
+PROSE0: ARW (Alpha RAW) is Sony's RAW format, written by every camera in the Alpha line — the a7 and a9 full-frame mirrorless bodies that dominate the market, the APS-C a6000 series, and older Alpha DSLRs and SLTs. An ARW file contains 12- or 14-bit sensor data plus Sony's rich metadata, in lossy-compressed, lossless-compressed or uncompressed variants depending on your camera menu settings.
+PROSE1: Sony's file naming (DSC01234.ARW) makes batches easy to accumulate and hard to deliver: clients, galleries and social platforms universally expect JPG, PNG or WebP.
+PROSE2: ShiftRaw converts ARW to JPG entirely in your browser. A WebAssembly build of LibRaw handles the decoding with your camera's white balance applied, so your photos stay on your machine from start to finish.
+PROSE3: <strong>Best for:</strong> JPG is the universal choice: every device, browser, app and platform displays it, and at 90%+ quality the compression is invisible. A 45-megapixel RAW frame converts to a 5–10 MB JPG that uploads anywhere. For web and client delivery it remains the sensible default — start here unless you specifically need transparency (PNG) or the smallest possible files (WebP).
+STEP1: Drop your .arw files onto the box above — a7, a9, a6000-series and legacy Alpha files all supported.
+STEP2: Choose output format and quality; the RAW engine loads once and then converts as fast as your CPU allows, with zero uploads.
+STEP3: Grab your JPG files individually or all at once with Download all.
+ABOUT_H2: About the ARW format
+CARD0 [Developer]: Sony Corporation
+CARD1 [Introduced]: 2006, with the Alpha DSLR-A100
+CARD2 [Container]: TIFF-based structure with Sony MakerNote data
+CARD3 [Color depth]: 12-bit or 14-bit per channel
+CARD4 [Typical size]: 24 MB (a7 III) to 125 MB uncompressed (a7R V)
+CARD5 [Written by]: a7/a9 full-frame, a6000-series APS-C, a1
+CARD6 [Compression]: Uncompressed, lossless or lossy, menu-selected
+FAQ0Q: What does ARW stand for?
+FAQ0A: Alpha Raw — Sony's RAW image format for the Alpha camera system. You may also encounter SRF and SR2 files from earlier Sony DSLRs; those are supported here too.
+FAQ1Q: Why are my ARW files 80 MB or larger?
+FAQ1A: High-resolution bodies like the a7R V store 61 megapixels at 14-bit depth, and if your camera is set to Uncompressed RAW the files balloon to 120+ MB. Switching the camera to Lossless Compressed cuts size roughly in half with no quality loss; converting to JPG shrinks delivery files by 90%.
+FAQ2Q: Can I convert ARW to JPG on any computer?
+FAQ2A: Yes — that's the point of ShiftRaw. The decoder is compiled to WebAssembly and runs in any modern browser (Chrome, Edge, Firefox, Safari). No Sony software, no Capture One, no installation.
+FAQ3Q: Will the conversion keep my Sony colors?
+FAQ3A: The converter applies the white balance your camera recorded at capture time and outputs standard sRGB. Because Sony's JPEG engine adds its own creative styling on top of raw data, expect a clean, neutral rendering rather than an in-camera Creative Look — ideal as a base for further grading.
+FAQ4Q: JPG or PNG — which should I choose?
+FAQ4A: JPG for photos: smaller files, universally supported, visually lossless at high quality. PNG for graphics that need transparency, screenshots, or when you must not lose a single pixel. For photographic work, JPG at 92% is the right call 95% of the time.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
+
+===== PAGE arw-to-png =====
+DESC: Convert Sony ARW RAW photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.
+SUBTITLE: Free, unlimited and 100% private - convert your ARW files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your ARW files here
+PROSE_H2: Why convert ARW to 
+PROSE0: ARW (Alpha RAW) is Sony's RAW format, written by every camera in the Alpha line — the a7 and a9 full-frame mirrorless bodies that dominate the market, the APS-C a6000 series, and older Alpha DSLRs and SLTs. An ARW file contains 12- or 14-bit sensor data plus Sony's rich metadata, in lossy-compressed, lossless-compressed or uncompressed variants depending on your camera menu settings.
+PROSE1: Sony's file naming (DSC01234.ARW) makes batches easy to accumulate and hard to deliver: clients, galleries and social platforms universally expect JPG, PNG or WebP.
+PROSE2: ShiftRaw converts ARW to PNG entirely in your browser. A WebAssembly build of LibRaw handles the decoding with your camera's white balance applied, so your photos stay on your machine from start to finish.
+PROSE3: <strong>Best for:</strong> PNG is lossless — every pixel of the converted image is preserved exactly, with no compression artifacts, and it supports full alpha transparency. The trade-off is size: expect files 3–10× larger than an equivalent JPG. Choose PNG when quality is non-negotiable, when you need transparency, or when the image will be edited further before final delivery.
+STEP1: Drop your .arw files onto the box above — a7, a9, a6000-series and legacy Alpha files all supported.
+STEP2: Choose output format and quality; the RAW engine loads once and then converts as fast as your CPU allows, with zero uploads.
+STEP3: Grab your PNG files individually or all at once with Download all.
+ABOUT_H2: About the ARW format
+CARD0 [Developer]: Sony Corporation
+CARD1 [Introduced]: 2006, with the Alpha DSLR-A100
+CARD2 [Container]: TIFF-based structure with Sony MakerNote data
+CARD3 [Color depth]: 12-bit or 14-bit per channel
+CARD4 [Typical size]: 24 MB (a7 III) to 125 MB uncompressed (a7R V)
+CARD5 [Written by]: a7/a9 full-frame, a6000-series APS-C, a1
+CARD6 [Compression]: Uncompressed, lossless or lossy, menu-selected
+FAQ0Q: What does ARW stand for?
+FAQ0A: Alpha Raw — Sony's RAW image format for the Alpha camera system. You may also encounter SRF and SR2 files from earlier Sony DSLRs; those are supported here too.
+FAQ1Q: Why are my ARW files 80 MB or larger?
+FAQ1A: High-resolution bodies like the a7R V store 61 megapixels at 14-bit depth, and if your camera is set to Uncompressed RAW the files balloon to 120+ MB. Switching the camera to Lossless Compressed cuts size roughly in half with no quality loss; converting to JPG shrinks delivery files by 90%.
+FAQ2Q: Can I convert ARW to JPG on any computer?
+FAQ2A: Yes — that's the point of ShiftRaw. The decoder is compiled to WebAssembly and runs in any modern browser (Chrome, Edge, Firefox, Safari). No Sony software, no Capture One, no installation.
+FAQ3Q: Will the conversion keep my Sony colors?
+FAQ3A: The converter applies the white balance your camera recorded at capture time and outputs standard sRGB. Because Sony's JPEG engine adds its own creative styling on top of raw data, expect a clean, neutral rendering rather than an in-camera Creative Look — ideal as a base for further grading.
+FAQ4Q: When is PNG worth the larger file size?
+FAQ4A: When you need a pixel-perfect lossless copy, transparency, or plan to re-edit and re-save the file — PNG survives round-trips without quality loss. For straightforward photo sharing, JPG at high quality looks identical at a fraction of the size.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
+
+===== PAGE arw-to-webp =====
+DESC: Convert Sony ARW RAW photos to WebP online free. 25–35% smaller than JPG, no upload, no watermark — 100% in your browser.
+SUBTITLE: Free, unlimited and 100% private - turn your ARW files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your ARW files here
+PROSE_H2: Why convert ARW to 
+PROSE0: ARW (Alpha RAW) is Sony's RAW format, written by every camera in the Alpha line — the a7 and a9 full-frame mirrorless bodies that dominate the market, the APS-C a6000 series, and older Alpha DSLRs and SLTs. An ARW file contains 12- or 14-bit sensor data plus Sony's rich metadata, in lossy-compressed, lossless-compressed or uncompressed variants depending on your camera menu settings.
+PROSE1: Sony's file naming (DSC01234.ARW) makes batches easy to accumulate and hard to deliver: clients, galleries and social platforms universally expect JPG, PNG or WebP.
+PROSE2: ShiftRaw converts ARW to WebP entirely in your browser. A WebAssembly build of LibRaw handles the decoding with your camera's white balance applied, so your photos stay on your machine from start to finish.
+PROSE3: <strong>Best for:</strong> WebP is the modern option: 25–35% smaller than JPG at the same visual quality, with alpha-channel support, and every current browser displays it. If your images are headed for the web — a site, blog, or web app — WebP is the best-performing choice and has been natively supported across all major browsers since 2020.
+STEP1: Drop your .arw files onto the box above — a7, a9, a6000-series and legacy Alpha files all supported.
+STEP2: Choose output format and quality; the RAW engine loads once and then converts as fast as your CPU allows, with zero uploads.
+STEP3: Grab your WebP files individually or all at once with Download all.
+ABOUT_H2: About the ARW format
+CARD0 [Developer]: Sony Corporation
+CARD1 [Introduced]: 2006, with the Alpha DSLR-A100
+CARD2 [Container]: TIFF-based structure with Sony MakerNote data
+CARD3 [Color depth]: 12-bit or 14-bit per channel
+CARD4 [Typical size]: 24 MB (a7 III) to 125 MB uncompressed (a7R V)
+CARD5 [Written by]: a7/a9 full-frame, a6000-series APS-C, a1
+CARD6 [Compression]: Uncompressed, lossless or lossy, menu-selected
+FAQ0Q: What does ARW stand for?
+FAQ0A: Alpha Raw — Sony's RAW image format for the Alpha camera system. You may also encounter SRF and SR2 files from earlier Sony DSLRs; those are supported here too.
+FAQ1Q: Why are my ARW files 80 MB or larger?
+FAQ1A: High-resolution bodies like the a7R V store 61 megapixels at 14-bit depth, and if your camera is set to Uncompressed RAW the files balloon to 120+ MB. Switching the camera to Lossless Compressed cuts size roughly in half with no quality loss; converting to JPG shrinks delivery files by 90%.
+FAQ2Q: Can I convert ARW to JPG on any computer?
+FAQ2A: Yes — that's the point of ShiftRaw. The decoder is compiled to WebAssembly and runs in any modern browser (Chrome, Edge, Firefox, Safari). No Sony software, no Capture One, no installation.
+FAQ3Q: Will the conversion keep my Sony colors?
+FAQ3A: The converter applies the white balance your camera recorded at capture time and outputs standard sRGB. Because Sony's JPEG engine adds its own creative styling on top of raw data, expect a clean, neutral rendering rather than an in-camera Creative Look — ideal as a base for further grading.
+FAQ4Q: Is WebP safe to use everywhere now?
+FAQ4A: On the web, yes — Chrome, Firefox, Safari and Edge all support it natively, and it now accounts for a large share of served images. Desktop software is the weak spot: older Photoshop, Office and viewer versions may not open it. For web use, choose WebP; for files that must open anywhere, choose JPG.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.

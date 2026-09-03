@@ -7,6 +7,11 @@
   <meta name="description" content="Convert WebP images to PNG online free. Lossless output, no upload, no watermark, unlimited batch — 100% in-browser.">
   <link rel="canonical" href="https://shiftraw.com/webp-to-png/">
   <meta name="robots" content="index,follow">
+  <link rel="alternate" hreflang="en" href="https://shiftraw.com/webp-to-png/">
+  <link rel="alternate" hreflang="de" href="https://shiftraw.com/de/webp-zu-png/">
+  <link rel="alternate" hreflang="ko" href="https://shiftraw.com/ko/webp-to-png/">
+  <link rel="alternate" hreflang="ja" href="https://shiftraw.com/ja/webp-to-png/">
+  <link rel="alternate" hreflang="x-default" href="https://shiftraw.com/webp-to-png/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ShiftRaw">
   <meta property="og:title" content="WebP to PNG Converter — Free, Lossless, No Upload | ShiftRaw">
@@ -34,7 +39,19 @@
         <a href="/#tools">All Tools</a>
         <a href="/#how-it-works">How It Works</a>
         <a href="/#faq">FAQ</a>
-        <a href="/about/">About</a>
+        <div class="lang-switch" aria-label="Language">
+          <button class="lang-btn" type="button" aria-haspopup="true" aria-expanded="false">
+            <svg class="globe" viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+            <span>English</span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="lang-menu" role="menu">
+            <a href="/webp-to-png/" hreflang="en" class="active" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>English</a>
+            <a href="/de/webp-zu-png/" hreflang="de" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Deutsch</a>
+            <a href="/ko/webp-to-png/" hreflang="ko" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>한국어</a>
+            <a href="/ja/webp-to-png/" hreflang="ja" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>日本語</a>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
@@ -85,7 +102,7 @@
       </div>
 
       <article class="section prose">
-        <h2>Why convert WebP to </h2>
+        <h2>Why convert WebP to PNG?</h2>
       <p>WebP is Google's image format, introduced in 2010 and now the default for much of the web — Chrome, Firefox, Safari and Edge all display it, and tools like Squoosh, cwebp and most CDN pipelines export it. WebP files are typically 25–35% smaller than a comparable JPEG, which is why it spread so fast.</p>
       <p>The friction runs the other way: a pile of WebP downloads from the web won't open in older desktop software — Photoshop before 23.2, many Microsoft Office versions, older image viewers — and some upload forms, print shops and client workflows still demand a JPG or PNG.</p>
       <p>ShiftRaw converts WebP to PNG entirely in your browser. Modern browsers decode WebP natively, so conversion is instant, pixel-accurate and completely private.</p>
@@ -146,7 +163,6 @@
           </div>
           <div class="related-grid">
             <a href="/webp-to-jpg/">WebP to JPG<span class="arr">→</span></a>
-            <a href="/webp-to-webp/">WebP to WebP<span class="arr">→</span></a>
             <a href="/cr2-to-png/">CR2 to PNG<span class="arr">→</span></a>
             <a href="/cr3-to-png/">CR3 to PNG<span class="arr">→</span></a>
             <a href="/nef-to-png/">NEF to PNG<span class="arr">→</span></a>
@@ -204,5 +220,6 @@
   </footer>
 
   <script src="/assets/js/converter.js" defer></script>
+  <script src="/assets/js/lang-switch.js" defer></script>
 </body>
 </html>

@@ -1,0 +1,1043 @@
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+ 
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+-
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+–
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+—
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+,
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+;
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+:
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+'
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,heic-to-jpg
+(
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,heic-to-jpg
+)
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+/
+
+### USED_IN: arw-to-jpg,arw-to-webp,cr2-to-jpg,cr2-to-webp,cr3-to-jpg,cr3-to-webp,dng-to-jpg,dng-to-webp,heic-to-webp,nef-to-jpg,nef-to-webp,raf-to-jpg,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+%
+
+### USED_IN: arw-to-jpg,cr2-to-jpg,cr3-to-jpg,dng-to-jpg,nef-to-jpg,raf-to-jpg,raw-to-jpg,webp-to-jpg,heic-to-jpg
++
+
+### USED_IN: arw-to-png,cr2-to-png,cr3-to-png,dng-to-png,heic-to-png,nef-to-png,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-png,webp-to-png
+×
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+<
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+>
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+~50% smaller than JPEG at equal quality
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+0
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+1
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,nef-to-jpg,nef-to-png,nef-to-webp
+12-bit or 14-bit per channel
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+14-bit per channel
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+1999, with the Nikon D1
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+2
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+20–125 MB per frame depending on camera
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+20–35 MB for a full-frame frame
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+2004, with the EOS 300D (Digital Rebel)
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+2006, with the Alpha DSLR-A100
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+2017 as Apple's default camera format
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+2018, with the EOS M50
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+24 MB (a7 III) to 125 MB uncompressed (a7R V)
+
+### USED_IN: webp-to-jpg,webp-to-png
+25–35% smaller than JPEG at equal quality
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+25–60 MB (Z9/Z8 45 MP files at the top end)
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-png,nef-to-webp,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png
+3
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+30–48 MB full-frame; ~40% smaller as C-RAW
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+30–50 MB for current 40 MP bodies
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raw-to-jpg,webp-to-jpg,heic-to-jpg
+4
+
+### USED_IN: arw-to-jpg,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-webp,heic-to-webp,nef-to-jpg,nef-to-webp,raf-to-jpg,raf-to-webp,raw-to-jpg,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+5
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,raf-to-jpg,raf-to-png,raf-to-webp
+6
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,heic-to-png,heic-to-webp,heic-to-jpg
+7
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp
+8
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr3-to-jpg,dng-to-jpg,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raw-to-jpg,webp-to-jpg,heic-to-jpg
+9
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+a
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,heic-to-jpg
+A
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+a7/a9 full-frame, a6000-series APS-C, a1
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+About the ARW format
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+About the CR2 format
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+About the CR3 format
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+About the DNG format
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+About the HEIC format
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+About the NEF format
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+About the RAF format
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+About the RAW format
+
+### USED_IN: webp-to-jpg,webp-to-png
+About the WebP format
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+Adobe Inc. (open, documented specification)
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+All the common ones: Canon CR2/CR3, Nikon NEF, Sony ARW, Adobe DNG, Fujifilm RAF, Panasonic RW2, Olympus ORF, Pentax PEF, Leica DNG, plus a long tail of exotic formats (3FR, FFF, IIQ, MRW, X3F and more). If it's a RAW file from a mainstream camera made in the last two decades, it will very likely decode.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+Alpha Raw — Sony's RAW image format for the Alpha camera system. You may also encounter SRF and SR2 files from earlier Sony DSLRs; those are supported here too.
+
+### USED_IN: webp-to-jpg,webp-to-png
+Alpha transparency and animation support
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+Archival conversion target for Lightroom users
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+b
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+B
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Best for
+
+### USED_IN: webp-to-jpg,webp-to-png
+Both — the format supports a lossy VP8 mode (the common case, comparable to JPEG) and a lossless VP8L mode. ShiftRaw handles either; the source encoding just affects how much additional loss a JPG conversion introduces.
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+Both formats are lossy, so there is a generational loss, but at 92% quality it is visually imperceptible. For a pixel-perfect copy choose PNG instead, which is lossless (and correspondingly larger).
+
+### USED_IN: webp-to-jpg,webp-to-png
+Browser support
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+c
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-png,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+C
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+C-RAW is a compressed flavor stored inside a CR3 file. A standard CR3 from a 45 MP R5 is about 45 MB; the same frame as C-RAW is roughly 27 MB with minimal visible difference. Both decode identically in ShiftRaw — just drop the file in and convert.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+Can I convert ARW to JPG on any computer?
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+Can I convert CR3 to JPG without Lightroom or DPP?
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+Can I convert DNG back to CR2 or NEF?
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+Can this converter handle GFX medium-format RAF files?
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp
+Canon Inc.
+
+### USED_IN: webp-to-jpg,webp-to-png
+Choose JPG or PNG and adjust quality. Decoding uses your browser's native WebP support — instant and local.
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+Choose JPG, PNG or WebP and set the quality. Decoding runs locally; no upload, no queue.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+Choose output format and quality; the RAW engine loads once and then converts as fast as your CPU allows, with zero uploads.
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+Choose the output format and quality. Decoding runs locally in your browser via WebAssembly; no upload, no queue, no watermark.
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+Choose your output format and quality; X-Trans demosaicing runs locally via WebAssembly.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp
+Color depth
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+Common use
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+Compatibility
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+Compression
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,heic-to-jpg
+Container
+
+### USED_IN: dng-to-jpg
+Convert Adobe DNG files to JPG online free. Works with Leica, Pentax, DJI and Lightroom-converted DNGs. No upload, no watermark.
+
+### USED_IN: dng-to-png
+Convert Adobe DNG files to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.
+
+### USED_IN: dng-to-webp
+Convert Adobe DNG files to WebP online free. 25–35% smaller than JPG, no upload, no watermark — 100% in your browser.
+
+### USED_IN: raw-to-jpg
+Convert any RAW file to JPG online free — Canon CR2/CR3, Nikon NEF, Sony ARW, Fujifilm RAF, DNG and 20+ more. No upload, no limits.
+
+### USED_IN: raw-to-png
+Convert any RAW file to PNG online free — Canon, Nikon, Sony, Fujifilm, DNG and 20+ formats. Lossless, no upload, no limits.
+
+### USED_IN: raw-to-webp
+Convert any RAW file to WebP online free — Canon, Nikon, Sony, Fujifilm, DNG and 20+ formats. No upload, no watermark, no limits.
+
+### USED_IN: cr2-to-jpg
+Convert Canon CR2 RAW photos to JPG online free. No upload, no watermark, unlimited batch conversion — runs 100% in your browser.
+
+### USED_IN: cr2-to-png
+Convert Canon CR2 RAW photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.
+
+### USED_IN: cr2-to-webp
+Convert Canon CR2 RAW photos to WebP online free. 25–35% smaller than JPG, no upload, no watermark — 100% in your browser.
+
+### USED_IN: cr3-to-jpg
+Convert Canon CR3 RAW photos (EOS R, R5, R6, R7) to JPG online free. No upload, no watermark, unlimited batch — fully in-browser.
+
+### USED_IN: cr3-to-png
+Convert Canon CR3 RAW photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.
+
+### USED_IN: cr3-to-webp
+Convert Canon CR3 RAW photos to WebP online free. Smaller files for the web, no upload, no watermark — 100% in your browser.
+
+### USED_IN: raf-to-jpg
+Convert Fujifilm RAF RAW photos to JPG online free. Proper X-Trans demosaicing, no upload, no watermark, unlimited batch conversion.
+
+### USED_IN: raf-to-png
+Convert Fujifilm RAF RAW photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.
+
+### USED_IN: raf-to-webp
+Convert Fujifilm RAF RAW photos to WebP online free. 25–35% smaller than JPG, no upload, no watermark — 100% in your browser.
+
+### USED_IN: heic-to-jpg
+Convert iPhone HEIC photos to JPG online free. No upload, no watermark, unlimited batch conversion — works on any device, 100% private.
+
+### USED_IN: heic-to-png
+Convert iPhone HEIC photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.
+
+### USED_IN: heic-to-webp
+Convert iPhone HEIC photos to WebP online free. Small files for the web, no upload, no watermark — 100% in your browser.
+
+### USED_IN: nef-to-jpg
+Convert Nikon NEF RAW photos to JPG online free. Works with D850, Z8, Z9 and every NEF. No upload, no watermark, unlimited batch.
+
+### USED_IN: nef-to-png
+Convert Nikon NEF RAW photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.
+
+### USED_IN: nef-to-webp
+Convert Nikon NEF RAW photos to WebP online free. 25–35% smaller than JPG, no upload, no watermark — 100% in your browser.
+
+### USED_IN: arw-to-jpg
+Convert Sony ARW RAW photos to JPG online free. Works with a7, a9, a6000 series and more. No upload, no watermark, unlimited batch.
+
+### USED_IN: arw-to-png
+Convert Sony ARW RAW photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.
+
+### USED_IN: arw-to-webp
+Convert Sony ARW RAW photos to WebP online free. 25–35% smaller than JPG, no upload, no watermark — 100% in your browser.
+
+### USED_IN: webp-to-jpg
+Convert WebP images to JPG online free. Instant, pixel-accurate, no upload, no watermark — works in any modern browser.
+
+### USED_IN: webp-to-png
+Convert WebP images to PNG online free. Lossless output, no upload, no watermark, unlimited batch — 100% in-browser.
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+CR2, CR3, NEF, ARW, DNG, RAF, ORF, RW2, PEF, and 20+
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+CR3 in 2018 (EOS M50 and later)
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+d
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png
+D
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+D1–D850 DSLRs, Z5/Z6/Z7/Z8/Z9 mirrorless
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Decodes 20+ RAW extensions in-browser
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+Developer
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+Difference from CR2
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+DNG is better for archiving and portability: the specification is open, so software will likely be able to read it decades from now. Proprietary formats sometimes carry slightly more camera-specific data. Many photographers shoot proprietary RAW and archive to DNG — ShiftRaw converts either kind.
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+Do Live Photos survive the conversion?
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+Do NEF files from the Z-series work here?
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+Does converting CR2 to JPG lose quality?
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+Does converting NEF lose the edits from Capture NX or Lightroom?
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Does converting RAW to JPG reduce image quality?
+
+### USED_IN: webp-to-jpg,webp-to-png
+Does converting WebP to PNG lose quality?
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+Does HEIC to JPG lose quality?
+
+### USED_IN: nef-to-jpg
+Download each JPG individually or use Download all for the whole batch.
+
+### USED_IN: nef-to-png
+Download each PNG individually or use Download all for the whole batch.
+
+### USED_IN: nef-to-webp
+Download each WebP individually or use Download all for the whole batch.
+
+### USED_IN: webp-to-jpg
+Download your JPG files individually or as a batch.
+
+### USED_IN: dng-to-jpg
+Download your JPG files one at a time or as a batch.
+
+### USED_IN: raf-to-jpg,heic-to-jpg
+Download your JPG images individually or all at once.
+
+### USED_IN: raw-to-jpg
+Download your JPG images individually or grab the whole batch with one click.
+
+### USED_IN: cr2-to-jpg
+Download your JPG images one by one, or grab them all at once with the Download all button.
+
+### USED_IN: webp-to-png
+Download your PNG files individually or as a batch.
+
+### USED_IN: dng-to-png
+Download your PNG files one at a time or as a batch.
+
+### USED_IN: heic-to-png,raf-to-png
+Download your PNG images individually or all at once.
+
+### USED_IN: raw-to-png
+Download your PNG images individually or grab the whole batch with one click.
+
+### USED_IN: cr2-to-png
+Download your PNG images one by one, or grab them all at once with the Download all button.
+
+### USED_IN: dng-to-webp
+Download your WebP files one at a time or as a batch.
+
+### USED_IN: heic-to-webp,raf-to-webp
+Download your WebP images individually or all at once.
+
+### USED_IN: raw-to-webp
+Download your WebP images individually or grab the whole batch with one click.
+
+### USED_IN: cr2-to-webp
+Download your WebP images one by one, or grab them all at once with the Download all button.
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+Drag your .cr2 files onto the box above — straight off the memory card is fine, batch conversion is supported.
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+Drag your .dng files onto the box above — native DNGs from Leica, Pentax or DJI work, as do Lightroom-converted archives.
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+Drag your .heic or .heif files onto the box above — straight from an iPhone export, AirDrop or iCloud download.
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+Drag your .nef files onto the box above — from a D750, D850, Z6, Z8 or any other NEF-writing Nikon.
+
+### USED_IN: webp-to-jpg,webp-to-png
+Drag your .webp files onto the box above — downloads, exports, whatever you've collected.
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Drag your RAW files onto the box above — any brand, any extension, mixed batches welcome.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+Drop your .arw files onto the box above — a7, a9, a6000-series and legacy Alpha files all supported.
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+Drop your .cr3 files onto the box above — R5, R6, R7 or R100 files all work, batches included.
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+Drop your .raf files onto the box above — X-T5, X-H2, X100VI or classic X-series files all work.
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+é
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+e
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+E
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Editing latitude, white balance rescue, archival
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+EOS 5D, 6D, 7D, 40D–80D, 1000D–1300D series
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+EOS R5, R6, R6 II, R7, R8, R50, R100, M50, 90D
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+Every Canon EOS DSLR from the EOS 300D (2004) up to the final DSLRs like the 90D and 250D writes CR2 files. Canon switched to the CR3 format in 2018 with the EOS M50, so all EOS R mirrorless bodies use CR3 instead.
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Extensions
+
+### USED_IN: heic-to-png,heic-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+Extras
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+f
+
+### USED_IN: arw-to-jpg,cr2-to-jpg,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+F
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+File size
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+Film simulations like Classic Chrome or Acros are rendering profiles applied when Fujifilm software develops the RAF. The raw file stores only the tag of the selected simulation. ShiftRaw outputs a neutral rendering; for the simulation look, shoot JPG+RAW or use Fujifilm's app.
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+For sharing and web use, the default 92% JPG quality is visually indistinguishable from maximum at roughly half the file size. Choose 90%+ for client delivery, or switch to PNG when you need a lossless, uncompressed copy.
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+Free, no royalties — a true open standard
+
+### USED_IN: arw-to-png
+Free, unlimited and 100% private - convert your ARW files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: cr2-to-png
+Free, unlimited and 100% private - convert your CR2 files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: cr3-to-png
+Free, unlimited and 100% private - convert your CR3 files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: dng-to-png
+Free, unlimited and 100% private - convert your DNG files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: heic-to-png
+Free, unlimited and 100% private - convert your HEIC files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: nef-to-png
+Free, unlimited and 100% private - convert your NEF files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: raf-to-png
+Free, unlimited and 100% private - convert your RAF files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: raw-to-png
+Free, unlimited and 100% private - convert your RAW files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: webp-to-png
+Free, unlimited and 100% private - convert your WebP files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: arw-to-webp
+Free, unlimited and 100% private - turn your ARW files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: arw-to-jpg
+Free, unlimited and 100% private - turn your ARW files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: cr2-to-webp
+Free, unlimited and 100% private - turn your CR2 files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: cr2-to-jpg
+Free, unlimited and 100% private - turn your CR2 files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: cr3-to-webp
+Free, unlimited and 100% private - turn your CR3 files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: cr3-to-jpg
+Free, unlimited and 100% private - turn your CR3 files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: dng-to-webp
+Free, unlimited and 100% private - turn your DNG files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: dng-to-jpg
+Free, unlimited and 100% private - turn your DNG files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: heic-to-webp
+Free, unlimited and 100% private - turn your HEIC files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: heic-to-jpg
+Free, unlimited and 100% private - turn your HEIC files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: nef-to-webp
+Free, unlimited and 100% private - turn your NEF files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: nef-to-jpg
+Free, unlimited and 100% private - turn your NEF files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: raf-to-webp
+Free, unlimited and 100% private - turn your RAF files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: raf-to-jpg
+Free, unlimited and 100% private - turn your RAF files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: raw-to-webp
+Free, unlimited and 100% private - turn your RAW files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: raw-to-jpg
+Free, unlimited and 100% private - turn your RAW files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: webp-to-jpg
+Free, unlimited and 100% private - turn your WebP files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+Free, unlimited and private — everything runs right here in your browser.
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+Fujifilm
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+Fujifilm stores the raw mosaic at 14-bit with lossless compression, and X-Trans's irregular pattern compresses less efficiently than Bayer. A 26 MP X-T4 RAF runs ~50 MB where a 24 MP Bayer RAW might be 25–35 MB.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+g
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+G
+
+### USED_IN: webp-to-jpg,webp-to-png
+Google
+
+### USED_IN: arw-to-jpg
+Grab your JPG files individually or all at once with Download all.
+
+### USED_IN: arw-to-png
+Grab your PNG files individually or all at once with Download all.
+
+### USED_IN: arw-to-webp
+Grab your WebP files individually or all at once with Download all.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+h
+
+### USED_IN: heic-to-png,heic-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,heic-to-jpg
+H
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+HEIF — High Efficiency Image Format
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+HEVC (H.265) intra-frame
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+High-resolution bodies like the a7R V store 61 megapixels at 14-bit depth, and if your camera is set to Uncompressed RAW the files balloon to 120+ MB. Switching the camera to Lossless Compressed cuts size roughly in half with no quality loss; converting to JPG shrinks delivery files by 90%.
+
+### USED_IN: cr3-to-jpg
+Hit Download all and your JPG files land in your downloads folder, full resolution, no sign-up.
+
+### USED_IN: cr3-to-png
+Hit Download all and your PNG files land in your downloads folder, full resolution, no sign-up.
+
+### USED_IN: cr3-to-webp
+Hit Download all and your WebP files land in your downloads folder, full resolution, no sign-up.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+i
+
+### USED_IN: arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-webp,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,heic-to-jpg
+I
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+If the DNG is linear (fully demosaiced) or contains the original RAW embedded — an option in Lightroom's conversion settings — the file can be larger than the source RAW. For delivery purposes, converting to JPG typically reduces file size by 85–95%.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+Introduced
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+Is a CR2 file the same as a JPEG?
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+Is CR3 going away?
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+Is DNG better than proprietary RAW formats like CR2 or NEF?
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Is my work safe here?
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+Is there a file size or batch limit?
+
+### USED_IN: webp-to-jpg,webp-to-png
+Is WebP lossy or lossless?
+
+### USED_IN: arw-to-webp,cr2-to-webp,cr3-to-webp,dng-to-webp,heic-to-webp,nef-to-webp,raf-to-webp,raw-to-webp
+Is WebP safe to use everywhere now?
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+ISO Base Media File Format (MP4 family)
+
+### USED_IN: arw-to-webp,cr2-to-webp,cr3-to-webp,dng-to-webp,heic-to-webp,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp
+j
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+J
+
+### USED_IN: arw-to-jpg,cr2-to-jpg,cr3-to-jpg,dng-to-jpg,nef-to-jpg,raf-to-jpg,raw-to-jpg,webp-to-jpg,heic-to-jpg
+JPG for photos: smaller files, universally supported, visually lossless at high quality. PNG for graphics that need transparency, screenshots, or when you must not lose a single pixel. For photographic work, JPG at 92% is the right call 95% of the time.
+
+### USED_IN: arw-to-jpg,cr2-to-jpg,cr3-to-jpg,dng-to-jpg,nef-to-jpg,raf-to-jpg,raw-to-jpg,webp-to-jpg,heic-to-jpg
+JPG or PNG — which should I choose?
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+k
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+l
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp
+L
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+Leica M/SL/Q, Pentax K/645Z, DJI drones, Blackmagic
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+License
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+Live Photo pairs, depth maps, bursts
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+Lossless compression; film simulation metadata
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+Lossless, lossy or uncompressed, camera-set
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+m
+
+### USED_IN: arw-to-jpg,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,heic-to-png,heic-to-webp,nef-to-jpg,raf-to-jpg,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+M
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+Modern Canon sensors are 24–45 megapixels and RAW stores every photosite at 14-bit depth before compression. Large files are the price of latitude in editing. Converting to JPG typically shrinks an R5 frame from ~45 MB to 5–10 MB while keeping web-sharp quality.
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+Moving Picture Experts Group (MPEG)
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+n
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr3-to-jpg,cr3-to-png,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+N
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+Native cameras
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+Native on Apple; patchy elsewhere
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+New container + optional C-RAW compression
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+Nikon Corporation
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+Nikon Electronic Format. It is Nikon's proprietary RAW image format, storing unprocessed sensor data plus shooting metadata such as white balance, Picture Control settings and lens information.
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+No — a Live Photo is a HEIC still plus a short video file, and converting extracts only the still image. That's true of every HEIC-to-JPG converter; the video component needs a separate export.
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+No — proprietary camera formats are not openly writable, and DNG conversion is one-way. That's exactly why DNG exists as the archival endpoint, and why converting DNG to universally readable formats like JPG or PNG is the practical path for sharing.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+No. A JPEG is a processed, compressed, 8-bit image ready for viewing. A CR2 file is unprocessed 14-bit sensor data that still needs demosaicing, white balance and gamma correction before it looks like a photo. That is why CR2 files look flat in some viewers but contain far more editing headroom.
+
+### USED_IN: webp-to-jpg,webp-to-png
+No. PNG is lossless, so the pixels you get are exactly the pixels in the WebP file. The file will be larger — often several times larger — because PNG's compression is far less aggressive than WebP's.
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+Not soon. It is Canon's only current RAW format across both EOS R and EOS M lines. Canon has not announced a successor, so a CR3 workflow — including converting to JPG for delivery — will stay relevant for years.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+o
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,heic-to-png,heic-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+O
+
+### USED_IN: webp-to-jpg,webp-to-png
+Older desktop apps and some print workflows
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+Older Windows builds and most mobile platforms lack a CR2 codec by default. Recent versions of Windows 10/11 and macOS can render thumbnails via camera-specific RAW extensions, but the most universal fix is converting to JPG — which every device and app on earth can display.
+
+### USED_IN: arw-to-webp,cr2-to-webp,cr3-to-webp,dng-to-webp,heic-to-webp,nef-to-webp,raf-to-webp,raw-to-webp
+On the web, yes — Chrome, Firefox, Safari and Edge all support it natively, and it now accounts for a large share of served images. Desktop software is the weak spot: older Photoshop, Office and viewer versions may not open it. For web use, choose WebP; for files that must open anywhere, choose JPG.
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+Only if you exported the DNG from Lightroom with edits baked in, or exported a linear DNG. A plain raw DNG carries the original sensor data; ShiftRaw renders it with the embedded as-shot white balance.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+p
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+P
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Pick the output format and quality. Each file is decoded locally, in your browser, by the LibRaw WebAssembly engine.
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+Pick the output format and quality. Processing is local and private, powered by WebAssembly.
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+Pick your output format and quality. Everything is decoded locally by a WebAssembly build of LibRaw, so nothing is uploaded.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+q
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+r
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+R
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+RAW keeps 12–14 bits of data per channel against JPG's 8, and defers every processing decision — white balance, exposure, profile — until editing. Overexposed skies and muddy shadows that are unrecoverable in JPG can often be rescued from RAW. The trade-off is exactly what this tool solves: RAW for capture and editing, instant conversion for delivery.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+s
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+S
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+Select JPG, PNG or WebP and adjust quality. Decoding happens on your device via WebAssembly — nothing is sent anywhere.
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+Sensor note
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+September 2004
+
+### USED_IN: webp-to-jpg,webp-to-png
+September 2010
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Sharing, email, websites, client delivery
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+Since iOS 11, Apple saves camera photos as HEIC by default to halve storage use. Settings › Camera › Formats has a 'Most Compatible' option that switches back to JPG — but converting here is easier than re-shooting and keeps the smaller originals.
+
+### USED_IN: heic-to-png,heic-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+Size advantage
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+Some, inevitably — JPG is 8-bit and lossy-compressed, while CR2 is 14-bit and essentially lossless. At the default 92% quality setting the loss is invisible for sharing and web use. Keep your original CR2 files for archival and serious editing; use the JPGs for delivery.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+Sony Corporation
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+Special
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+Step 1
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+Step 2
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+Step 3
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+Succeeded by
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+t
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+T
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+The converter applies the white balance your camera recorded at capture time and outputs standard sRGB. Because Sony's JPEG engine adds its own creative styling on top of raw data, expect a clean, neutral rendering rather than an in-camera Creative Look — ideal as a base for further grading.
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+This converter
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+Three steps, about ten seconds — no software to install, no account to create.
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+TIFF-based structure with Canon-specific tags
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+TIFF-based structure with Nikon MakerNote data
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+TIFF-based structure with Sony MakerNote data
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+TIFF-EP based, openly documented
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp
+Typical size
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Typically 12-bit or 14-bit per channel
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+u
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+Uncompressed, lossless or lossy, menu-selected
+
+### USED_IN: webp-to-jpg,webp-to-png
+Universal since ~2020
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Unprocessed sensor data, pre-demosaic
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+Up to 16-bit; supports floating point variants
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+Used across the X-series since 2011
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+Usually yes, somewhat — HEIC is the more efficient codec, so a maximum-quality JPG export lands at 1.5–2.5× the HEIC size. In exchange you get a file that opens instantly on every device, platform and browser made in the last 30 years.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+v
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+V
+
+### USED_IN: webp-to-jpg,webp-to-png
+VP8 (lossy) or VP8L (lossless) intra-frame
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+w
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+W
+
+### USED_IN: webp-to-jpg,webp-to-png
+Weak spot
+
+### USED_IN: webp-to-jpg,webp-to-png
+WebP support arrived in desktop software late — Photoshop only gained it in version 23.2 (2022), and many Office and viewer installs still lack the codec. Converting to JPG or PNG sidesteps the issue entirely.
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+What are film simulations and do they survive conversion?
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+What does ARW stand for?
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+What does NEF stand for?
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+What it is
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+What's the best quality setting for NEF to JPG?
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+What's the difference between CR3 and C-RAW?
+
+### USED_IN: arw-to-png,cr2-to-png,cr3-to-png,dng-to-png,heic-to-png,nef-to-png,raf-to-png,raw-to-png,webp-to-png
+When is PNG worth the larger file size?
+
+### USED_IN: arw-to-png,cr2-to-png,cr3-to-png,dng-to-png,heic-to-png,nef-to-png,raf-to-png,raw-to-png,webp-to-png
+When you need a pixel-perfect lossless copy, transparency, or plan to re-edit and re-save the file — PNG survives round-trips without quality loss. For straightforward photo sharing, JPG at high quality looks identical at a fraction of the size.
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+Which Canon cameras shoot CR2 files?
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Which RAW formats does this converter support?
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+Why are my ARW files 80 MB or larger?
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+Why are my CR3 files so large?
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+Why are RAF files bigger than same-megapixel Canon or Sony files?
+
+### USED_IN: webp-to-jpg,webp-to-png
+Why can't I open WebP files in Photoshop or Word?
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+Why do my iPhone photos end up as HEIC?
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+Why do RAF files look different in different apps?
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+Why is my DNG file so big?
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Why shoot RAW instead of JPG?
+
+### USED_IN: cr2-to-jpg,cr2-to-png,cr2-to-webp
+Why won't Windows or my phone open CR2 files?
+
+### USED_IN: dng-to-jpg,dng-to-png,dng-to-webp
+Will converting DNG to JPG preserve my Lightroom edits?
+
+### USED_IN: heic-to-png,heic-to-webp,heic-to-jpg
+Will converting HEIC to JPG make the file bigger?
+
+### USED_IN: webp-to-jpg,webp-to-png
+Will converting WebP to JPG make files bigger?
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+Will the conversion keep my Sony colors?
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Worst for
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp
+Written by
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+x
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp
+X
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+X-T4/X-T5, X-H2/X-H2S, X100VI, GFX (as RAF too)
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+X-Trans 6×6 color filter array (not Bayer)
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+X-Trans sensors need dedicated demosaicing, and every renderer interprets them slightly differently. Fujifilm's own apps apply film simulations on top of raw data; ShiftRaw renders a clean, neutral interpretation with as-shot white balance — a solid base for your own grading.
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp,cr2-to-jpg,cr2-to-png,cr2-to-webp,cr3-to-jpg,cr3-to-png,cr3-to-webp,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-jpg,nef-to-png,nef-to-webp,raf-to-jpg,raf-to-png,raf-to-webp,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-jpg,webp-to-png,heic-to-jpg
+y
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Y
+
+### USED_IN: arw-to-jpg,arw-to-png,arw-to-webp
+Yes — that's the point of ShiftRaw. The decoder is compiled to WebAssembly and runs in any modern browser (Chrome, Edge, Firefox, Safari). No Sony software, no Capture One, no installation.
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+Yes — this is a client-side converter. The RAW decoding engine is downloaded to your browser as WebAssembly and runs on your CPU. Your files are never transmitted, stored or seen by any server. You can even disconnect from the internet after the page loads and it will still work.
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+Yes — those edits live in sidecar files or catalogs, not inside the NEF itself. ShiftRaw renders the original raw data with the camera's as-shot white balance. Finish your raw development first if you need developed results, or use ShiftRaw when you need quick, straight conversions of unedited files.
+
+### USED_IN: webp-to-jpg,webp-to-png
+Yes, typically 25–40% bigger at similar visual quality — that's the efficiency you're trading away for compatibility. It's usually the right trade when a person or platform on the other end simply needs a standard file.
+
+### USED_IN: raf-to-jpg,raf-to-png,raf-to-webp
+Yes. GFX 50S/100S RAF files are large (100 MP from the GFX100 II) but supported — decoding just takes a few seconds longer. Memory-wise, the browser handles up to roughly 100 MP comfortably on a modern machine.
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+Yes. NEF files from the Z5, Z6, Z7, Z6II, Z7II, Z8 and Z9 all decode through the same LibRaw engine used by this converter, along with every Nikon DSLR NEF back to the D1 era.
+
+### USED_IN: cr3-to-jpg,cr3-to-png,cr3-to-webp
+Yes. ShiftRaw decodes CR3 in your browser using a WebAssembly build of LibRaw, so there is nothing to install and no subscription to buy. Lightroom remains the tool for developing and cataloguing, but for a quick, full-quality JPG export this is faster.
+
+### USED_IN: raw-to-jpg,raw-to-png,raw-to-webp
+You lose bit depth and gain lossy compression, but at the default 92% quality the result is visually identical for screen use and normal print sizes. Serious editors keep the RAW originals; everyone converts copies for sharing.
+
+### USED_IN: arw-to-png,cr2-to-png,cr3-to-png,dng-to-jpg,dng-to-png,dng-to-webp,heic-to-png,heic-to-webp,nef-to-png,raf-to-png,raw-to-jpg,raw-to-png,raw-to-webp,webp-to-png,heic-to-jpg
+z
+
+### USED_IN: nef-to-jpg,nef-to-png,nef-to-webp
+Z

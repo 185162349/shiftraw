@@ -7,6 +7,11 @@
   <meta name="description" content="Convert Nikon NEF RAW photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.">
   <link rel="canonical" href="https://shiftraw.com/nef-to-png/">
   <meta name="robots" content="index,follow">
+  <link rel="alternate" hreflang="en" href="https://shiftraw.com/nef-to-png/">
+  <link rel="alternate" hreflang="de" href="https://shiftraw.com/de/nef-zu-png/">
+  <link rel="alternate" hreflang="ko" href="https://shiftraw.com/ko/nef-to-png/">
+  <link rel="alternate" hreflang="ja" href="https://shiftraw.com/ja/nef-to-png/">
+  <link rel="alternate" hreflang="x-default" href="https://shiftraw.com/nef-to-png/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ShiftRaw">
   <meta property="og:title" content="NEF to PNG Converter — Free, Lossless, No Upload | ShiftRaw">
@@ -34,7 +39,19 @@
         <a href="/#tools">All Tools</a>
         <a href="/#how-it-works">How It Works</a>
         <a href="/#faq">FAQ</a>
-        <a href="/about/">About</a>
+        <div class="lang-switch" aria-label="Language">
+          <button class="lang-btn" type="button" aria-haspopup="true" aria-expanded="false">
+            <svg class="globe" viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+            <span>English</span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="lang-menu" role="menu">
+            <a href="/nef-to-png/" hreflang="en" class="active" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>English</a>
+            <a href="/de/nef-zu-png/" hreflang="de" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Deutsch</a>
+            <a href="/ko/nef-to-png/" hreflang="ko" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>한국어</a>
+            <a href="/ja/nef-to-png/" hreflang="ja" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>日本語</a>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
@@ -85,7 +102,7 @@
       </div>
 
       <article class="section prose">
-        <h2>Why convert NEF to </h2>
+        <h2>Why convert NEF to PNG?</h2>
       <p>NEF (Nikon Electronic Format) is Nikon's RAW format, and one of the longest-lived in the industry — Nikon has been writing NEF files since the D1 in 1999, and the format lives on today in the Z-series mirrorless bodies. A NEF file stores 12- or 14-bit sensor readings along with Nikon's metadata for white balance, Picture Control and lens data.</p>
       <p>Nikon shooters accumulate NEFs by the thousand because the format is excellent for editing, but painful to share: stock Windows installations (outside Nikon's own NX Studio), most content platforms and every messaging app need a JPEG or PNG instead.</p>
       <p>ShiftRaw converts NEF to PNG directly in the browser. The LibRaw engine applies your camera's recorded white balance, processes the full-resolution frame, and outputs a clean file — your photos are never uploaded to any server.</p>
@@ -204,5 +221,6 @@
   </footer>
 
   <script src="/assets/js/converter.js" defer></script>
+  <script src="/assets/js/lang-switch.js" defer></script>
 </body>
 </html>

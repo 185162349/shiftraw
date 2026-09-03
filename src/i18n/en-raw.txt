@@ -1,0 +1,99 @@
+
+===== PAGE raw-to-jpg =====
+DESC: Convert any RAW file to JPG online free — Canon CR2/CR3, Nikon NEF, Sony ARW, Fujifilm RAF, DNG and 20+ more. No upload, no limits.
+SUBTITLE: Free, unlimited and 100% private - turn your RAW files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your RAW files here
+PROSE_H2: Why convert RAW to 
+PROSE0: Every RAW file — whatever its three-letter extension — is the same idea: the unprocessed data read straight off your camera's sensor, before demosaicing, white balance, sharpening or compression. Camera makers each wrap that data in their own container (CR2 and CR3 from Canon, NEF from Nikon, ARW from Sony, RAF from Fujifilm, DNG from Adobe and others), which is why RAW is powerful for editing and painful for sharing.
+PROSE1: This converter speaks all of them. Drop in files from any major manufacturer — Canon, Nikon, Sony, Fujifilm, Panasonic, Olympus/OM System, Pentax, Leica, Hasselblad or DJI — and the LibRaw engine identifies and decodes each one automatically, applying the camera's recorded white balance.
+PROSE2: Converting RAW to JPG runs 100% in your browser via WebAssembly. Your photos never leave your device, there's no file-size quota, no watermark and no sign-up.
+PROSE3: <strong>Best for:</strong> JPG is the universal choice: every device, browser, app and platform displays it, and at 90%+ quality the compression is invisible. A 45-megapixel RAW frame converts to a 5–10 MB JPG that uploads anywhere. For web and client delivery it remains the sensible default — start here unless you specifically need transparency (PNG) or the smallest possible files (WebP).
+STEP1: Drag your RAW files onto the box above — any brand, any extension, mixed batches welcome.
+STEP2: Pick the output format and quality. Each file is decoded locally, in your browser, by the LibRaw WebAssembly engine.
+STEP3: Download your JPG images individually or grab the whole batch with one click.
+ABOUT_H2: About the RAW format
+CARD0 [What it is]: Unprocessed sensor data, pre-demosaic
+CARD1 [Color depth]: Typically 12-bit or 14-bit per channel
+CARD2 [File size]: 20–125 MB per frame depending on camera
+CARD3 [Extensions]: CR2, CR3, NEF, ARW, DNG, RAF, ORF, RW2, PEF, and 20+
+CARD4 [Best for]: Editing latitude, white balance rescue, archival
+CARD5 [Worst for]: Sharing, email, websites, client delivery
+CARD6 [This converter]: Decodes 20+ RAW extensions in-browser
+FAQ0Q: Which RAW formats does this converter support?
+FAQ0A: All the common ones: Canon CR2/CR3, Nikon NEF, Sony ARW, Adobe DNG, Fujifilm RAF, Panasonic RW2, Olympus ORF, Pentax PEF, Leica DNG, plus a long tail of exotic formats (3FR, FFF, IIQ, MRW, X3F and more). If it's a RAW file from a mainstream camera made in the last two decades, it will very likely decode.
+FAQ1Q: Why shoot RAW instead of JPG?
+FAQ1A: RAW keeps 12–14 bits of data per channel against JPG's 8, and defers every processing decision — white balance, exposure, profile — until editing. Overexposed skies and muddy shadows that are unrecoverable in JPG can often be rescued from RAW. The trade-off is exactly what this tool solves: RAW for capture and editing, instant conversion for delivery.
+FAQ2Q: Does converting RAW to JPG reduce image quality?
+FAQ2A: You lose bit depth and gain lossy compression, but at the default 92% quality the result is visually identical for screen use and normal print sizes. Serious editors keep the RAW originals; everyone converts copies for sharing.
+FAQ3Q: Is my work safe here?
+FAQ3A: Yes — this is a client-side converter. The RAW decoding engine is downloaded to your browser as WebAssembly and runs on your CPU. Your files are never transmitted, stored or seen by any server. You can even disconnect from the internet after the page loads and it will still work.
+FAQ4Q: JPG or PNG — which should I choose?
+FAQ4A: JPG for photos: smaller files, universally supported, visually lossless at high quality. PNG for graphics that need transparency, screenshots, or when you must not lose a single pixel. For photographic work, JPG at 92% is the right call 95% of the time.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
+
+===== PAGE raw-to-png =====
+DESC: Convert any RAW file to PNG online free — Canon, Nikon, Sony, Fujifilm, DNG and 20+ formats. Lossless, no upload, no limits.
+SUBTITLE: Free, unlimited and 100% private - convert your RAW files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your RAW files here
+PROSE_H2: Why convert RAW to 
+PROSE0: Every RAW file — whatever its three-letter extension — is the same idea: the unprocessed data read straight off your camera's sensor, before demosaicing, white balance, sharpening or compression. Camera makers each wrap that data in their own container (CR2 and CR3 from Canon, NEF from Nikon, ARW from Sony, RAF from Fujifilm, DNG from Adobe and others), which is why RAW is powerful for editing and painful for sharing.
+PROSE1: This converter speaks all of them. Drop in files from any major manufacturer — Canon, Nikon, Sony, Fujifilm, Panasonic, Olympus/OM System, Pentax, Leica, Hasselblad or DJI — and the LibRaw engine identifies and decodes each one automatically, applying the camera's recorded white balance.
+PROSE2: Converting RAW to PNG runs 100% in your browser via WebAssembly. Your photos never leave your device, there's no file-size quota, no watermark and no sign-up.
+PROSE3: <strong>Best for:</strong> PNG is lossless — every pixel of the converted image is preserved exactly, with no compression artifacts, and it supports full alpha transparency. The trade-off is size: expect files 3–10× larger than an equivalent JPG. Choose PNG when quality is non-negotiable, when you need transparency, or when the image will be edited further before final delivery.
+STEP1: Drag your RAW files onto the box above — any brand, any extension, mixed batches welcome.
+STEP2: Pick the output format and quality. Each file is decoded locally, in your browser, by the LibRaw WebAssembly engine.
+STEP3: Download your PNG images individually or grab the whole batch with one click.
+ABOUT_H2: About the RAW format
+CARD0 [What it is]: Unprocessed sensor data, pre-demosaic
+CARD1 [Color depth]: Typically 12-bit or 14-bit per channel
+CARD2 [File size]: 20–125 MB per frame depending on camera
+CARD3 [Extensions]: CR2, CR3, NEF, ARW, DNG, RAF, ORF, RW2, PEF, and 20+
+CARD4 [Best for]: Editing latitude, white balance rescue, archival
+CARD5 [Worst for]: Sharing, email, websites, client delivery
+CARD6 [This converter]: Decodes 20+ RAW extensions in-browser
+FAQ0Q: Which RAW formats does this converter support?
+FAQ0A: All the common ones: Canon CR2/CR3, Nikon NEF, Sony ARW, Adobe DNG, Fujifilm RAF, Panasonic RW2, Olympus ORF, Pentax PEF, Leica DNG, plus a long tail of exotic formats (3FR, FFF, IIQ, MRW, X3F and more). If it's a RAW file from a mainstream camera made in the last two decades, it will very likely decode.
+FAQ1Q: Why shoot RAW instead of JPG?
+FAQ1A: RAW keeps 12–14 bits of data per channel against JPG's 8, and defers every processing decision — white balance, exposure, profile — until editing. Overexposed skies and muddy shadows that are unrecoverable in JPG can often be rescued from RAW. The trade-off is exactly what this tool solves: RAW for capture and editing, instant conversion for delivery.
+FAQ2Q: Does converting RAW to JPG reduce image quality?
+FAQ2A: You lose bit depth and gain lossy compression, but at the default 92% quality the result is visually identical for screen use and normal print sizes. Serious editors keep the RAW originals; everyone converts copies for sharing.
+FAQ3Q: Is my work safe here?
+FAQ3A: Yes — this is a client-side converter. The RAW decoding engine is downloaded to your browser as WebAssembly and runs on your CPU. Your files are never transmitted, stored or seen by any server. You can even disconnect from the internet after the page loads and it will still work.
+FAQ4Q: When is PNG worth the larger file size?
+FAQ4A: When you need a pixel-perfect lossless copy, transparency, or plan to re-edit and re-save the file — PNG survives round-trips without quality loss. For straightforward photo sharing, JPG at high quality looks identical at a fraction of the size.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
+
+===== PAGE raw-to-webp =====
+DESC: Convert any RAW file to WebP online free — Canon, Nikon, Sony, Fujifilm, DNG and 20+ formats. No upload, no watermark, no limits.
+SUBTITLE: Free, unlimited and 100% private - turn your RAW files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your RAW files here
+PROSE_H2: Why convert RAW to 
+PROSE0: Every RAW file — whatever its three-letter extension — is the same idea: the unprocessed data read straight off your camera's sensor, before demosaicing, white balance, sharpening or compression. Camera makers each wrap that data in their own container (CR2 and CR3 from Canon, NEF from Nikon, ARW from Sony, RAF from Fujifilm, DNG from Adobe and others), which is why RAW is powerful for editing and painful for sharing.
+PROSE1: This converter speaks all of them. Drop in files from any major manufacturer — Canon, Nikon, Sony, Fujifilm, Panasonic, Olympus/OM System, Pentax, Leica, Hasselblad or DJI — and the LibRaw engine identifies and decodes each one automatically, applying the camera's recorded white balance.
+PROSE2: Converting RAW to WebP runs 100% in your browser via WebAssembly. Your photos never leave your device, there's no file-size quota, no watermark and no sign-up.
+PROSE3: <strong>Best for:</strong> WebP is the modern option: 25–35% smaller than JPG at the same visual quality, with alpha-channel support, and every current browser displays it. If your images are headed for the web — a site, blog, or web app — WebP is the best-performing choice and has been natively supported across all major browsers since 2020.
+STEP1: Drag your RAW files onto the box above — any brand, any extension, mixed batches welcome.
+STEP2: Pick the output format and quality. Each file is decoded locally, in your browser, by the LibRaw WebAssembly engine.
+STEP3: Download your WebP images individually or grab the whole batch with one click.
+ABOUT_H2: About the RAW format
+CARD0 [What it is]: Unprocessed sensor data, pre-demosaic
+CARD1 [Color depth]: Typically 12-bit or 14-bit per channel
+CARD2 [File size]: 20–125 MB per frame depending on camera
+CARD3 [Extensions]: CR2, CR3, NEF, ARW, DNG, RAF, ORF, RW2, PEF, and 20+
+CARD4 [Best for]: Editing latitude, white balance rescue, archival
+CARD5 [Worst for]: Sharing, email, websites, client delivery
+CARD6 [This converter]: Decodes 20+ RAW extensions in-browser
+FAQ0Q: Which RAW formats does this converter support?
+FAQ0A: All the common ones: Canon CR2/CR3, Nikon NEF, Sony ARW, Adobe DNG, Fujifilm RAF, Panasonic RW2, Olympus ORF, Pentax PEF, Leica DNG, plus a long tail of exotic formats (3FR, FFF, IIQ, MRW, X3F and more). If it's a RAW file from a mainstream camera made in the last two decades, it will very likely decode.
+FAQ1Q: Why shoot RAW instead of JPG?
+FAQ1A: RAW keeps 12–14 bits of data per channel against JPG's 8, and defers every processing decision — white balance, exposure, profile — until editing. Overexposed skies and muddy shadows that are unrecoverable in JPG can often be rescued from RAW. The trade-off is exactly what this tool solves: RAW for capture and editing, instant conversion for delivery.
+FAQ2Q: Does converting RAW to JPG reduce image quality?
+FAQ2A: You lose bit depth and gain lossy compression, but at the default 92% quality the result is visually identical for screen use and normal print sizes. Serious editors keep the RAW originals; everyone converts copies for sharing.
+FAQ3Q: Is my work safe here?
+FAQ3A: Yes — this is a client-side converter. The RAW decoding engine is downloaded to your browser as WebAssembly and runs on your CPU. Your files are never transmitted, stored or seen by any server. You can even disconnect from the internet after the page loads and it will still work.
+FAQ4Q: Is WebP safe to use everywhere now?
+FAQ4A: On the web, yes — Chrome, Firefox, Safari and Edge all support it natively, and it now accounts for a large share of served images. Desktop software is the weak spot: older Photoshop, Office and viewer versions may not open it. For web use, choose WebP; for files that must open anywhere, choose JPG.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.

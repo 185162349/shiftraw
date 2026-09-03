@@ -1,0 +1,66 @@
+
+===== PAGE webp-to-jpg =====
+DESC: Convert WebP images to JPG online free. Instant, pixel-accurate, no upload, no watermark — works in any modern browser.
+SUBTITLE: Free, unlimited and 100% private - turn your WebP files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your WebP files here
+PROSE_H2: Why convert WebP to 
+PROSE0: WebP is Google's image format, introduced in 2010 and now the default for much of the web — Chrome, Firefox, Safari and Edge all display it, and tools like Squoosh, cwebp and most CDN pipelines export it. WebP files are typically 25–35% smaller than a comparable JPEG, which is why it spread so fast.
+PROSE1: The friction runs the other way: a pile of WebP downloads from the web won't open in older desktop software — Photoshop before 23.2, many Microsoft Office versions, older image viewers — and some upload forms, print shops and client workflows still demand a JPG or PNG.
+PROSE2: ShiftRaw converts WebP to JPG entirely in your browser. Modern browsers decode WebP natively, so conversion is instant, pixel-accurate and completely private.
+PROSE3: <strong>Best for:</strong> JPG is the universal choice: every device, browser, app and platform displays it, and at 90%+ quality the compression is invisible. A 45-megapixel RAW frame converts to a 5–10 MB JPG that uploads anywhere. For web and client delivery it remains the sensible default — start here unless you specifically need transparency (PNG) or the smallest possible files (WebP).
+STEP1: Drag your .webp files onto the box above — downloads, exports, whatever you've collected.
+STEP2: Choose JPG or PNG and adjust quality. Decoding uses your browser's native WebP support — instant and local.
+STEP3: Download your JPG files individually or as a batch.
+ABOUT_H2: About the WebP format
+CARD0 [Developer]: Google
+CARD1 [Introduced]: September 2010
+CARD2 [Compression]: VP8 (lossy) or VP8L (lossless) intra-frame
+CARD3 [Size advantage]: 25–35% smaller than JPEG at equal quality
+CARD4 [Extras]: Alpha transparency and animation support
+CARD5 [Browser support]: Universal since ~2020
+CARD6 [Weak spot]: Older desktop apps and some print workflows
+FAQ0Q: Why can't I open WebP files in Photoshop or Word?
+FAQ0A: WebP support arrived in desktop software late — Photoshop only gained it in version 23.2 (2022), and many Office and viewer installs still lack the codec. Converting to JPG or PNG sidesteps the issue entirely.
+FAQ1Q: Will converting WebP to JPG make files bigger?
+FAQ1A: Yes, typically 25–40% bigger at similar visual quality — that's the efficiency you're trading away for compatibility. It's usually the right trade when a person or platform on the other end simply needs a standard file.
+FAQ2Q: Is WebP lossy or lossless?
+FAQ2A: Both — the format supports a lossy VP8 mode (the common case, comparable to JPEG) and a lossless VP8L mode. ShiftRaw handles either; the source encoding just affects how much additional loss a JPG conversion introduces.
+FAQ3Q: Does converting WebP to PNG lose quality?
+FAQ3A: No. PNG is lossless, so the pixels you get are exactly the pixels in the WebP file. The file will be larger — often several times larger — because PNG's compression is far less aggressive than WebP's.
+FAQ4Q: JPG or PNG — which should I choose?
+FAQ4A: JPG for photos: smaller files, universally supported, visually lossless at high quality. PNG for graphics that need transparency, screenshots, or when you must not lose a single pixel. For photographic work, JPG at 92% is the right call 95% of the time.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
+
+===== PAGE webp-to-png =====
+DESC: Convert WebP images to PNG online free. Lossless output, no upload, no watermark, unlimited batch — 100% in-browser.
+SUBTITLE: Free, unlimited and 100% private - convert your WebP files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your WebP files here
+PROSE_H2: Why convert WebP to 
+PROSE0: WebP is Google's image format, introduced in 2010 and now the default for much of the web — Chrome, Firefox, Safari and Edge all display it, and tools like Squoosh, cwebp and most CDN pipelines export it. WebP files are typically 25–35% smaller than a comparable JPEG, which is why it spread so fast.
+PROSE1: The friction runs the other way: a pile of WebP downloads from the web won't open in older desktop software — Photoshop before 23.2, many Microsoft Office versions, older image viewers — and some upload forms, print shops and client workflows still demand a JPG or PNG.
+PROSE2: ShiftRaw converts WebP to PNG entirely in your browser. Modern browsers decode WebP natively, so conversion is instant, pixel-accurate and completely private.
+PROSE3: <strong>Best for:</strong> PNG is lossless — every pixel of the converted image is preserved exactly, with no compression artifacts, and it supports full alpha transparency. The trade-off is size: expect files 3–10× larger than an equivalent JPG. Choose PNG when quality is non-negotiable, when you need transparency, or when the image will be edited further before final delivery.
+STEP1: Drag your .webp files onto the box above — downloads, exports, whatever you've collected.
+STEP2: Choose JPG or PNG and adjust quality. Decoding uses your browser's native WebP support — instant and local.
+STEP3: Download your PNG files individually or as a batch.
+ABOUT_H2: About the WebP format
+CARD0 [Developer]: Google
+CARD1 [Introduced]: September 2010
+CARD2 [Compression]: VP8 (lossy) or VP8L (lossless) intra-frame
+CARD3 [Size advantage]: 25–35% smaller than JPEG at equal quality
+CARD4 [Extras]: Alpha transparency and animation support
+CARD5 [Browser support]: Universal since ~2020
+CARD6 [Weak spot]: Older desktop apps and some print workflows
+FAQ0Q: Why can't I open WebP files in Photoshop or Word?
+FAQ0A: WebP support arrived in desktop software late — Photoshop only gained it in version 23.2 (2022), and many Office and viewer installs still lack the codec. Converting to JPG or PNG sidesteps the issue entirely.
+FAQ1Q: Will converting WebP to JPG make files bigger?
+FAQ1A: Yes, typically 25–40% bigger at similar visual quality — that's the efficiency you're trading away for compatibility. It's usually the right trade when a person or platform on the other end simply needs a standard file.
+FAQ2Q: Is WebP lossy or lossless?
+FAQ2A: Both — the format supports a lossy VP8 mode (the common case, comparable to JPEG) and a lossless VP8L mode. ShiftRaw handles either; the source encoding just affects how much additional loss a JPG conversion introduces.
+FAQ3Q: Does converting WebP to PNG lose quality?
+FAQ3A: No. PNG is lossless, so the pixels you get are exactly the pixels in the WebP file. The file will be larger — often several times larger — because PNG's compression is far less aggressive than WebP's.
+FAQ4Q: When is PNG worth the larger file size?
+FAQ4A: When you need a pixel-perfect lossless copy, transparency, or plan to re-edit and re-save the file — PNG survives round-trips without quality loss. For straightforward photo sharing, JPG at high quality looks identical at a fraction of the size.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.

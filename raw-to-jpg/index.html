@@ -7,6 +7,11 @@
   <meta name="description" content="Convert any RAW file to JPG online free — Canon CR2/CR3, Nikon NEF, Sony ARW, Fujifilm RAF, DNG and 20+ more. No upload, no limits.">
   <link rel="canonical" href="https://shiftraw.com/raw-to-jpg/">
   <meta name="robots" content="index,follow">
+  <link rel="alternate" hreflang="en" href="https://shiftraw.com/raw-to-jpg/">
+  <link rel="alternate" hreflang="de" href="https://shiftraw.com/de/raw-zu-jpg/">
+  <link rel="alternate" hreflang="ko" href="https://shiftraw.com/ko/raw-to-jpg/">
+  <link rel="alternate" hreflang="ja" href="https://shiftraw.com/ja/raw-to-jpg/">
+  <link rel="alternate" hreflang="x-default" href="https://shiftraw.com/raw-to-jpg/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ShiftRaw">
   <meta property="og:title" content="RAW to JPG Converter — All Camera Brands, Free, No Upload | ShiftRaw">
@@ -34,7 +39,19 @@
         <a href="/#tools">All Tools</a>
         <a href="/#how-it-works">How It Works</a>
         <a href="/#faq">FAQ</a>
-        <a href="/about/">About</a>
+        <div class="lang-switch" aria-label="Language">
+          <button class="lang-btn" type="button" aria-haspopup="true" aria-expanded="false">
+            <svg class="globe" viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+            <span>English</span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="lang-menu" role="menu">
+            <a href="/raw-to-jpg/" hreflang="en" class="active" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>English</a>
+            <a href="/de/raw-zu-jpg/" hreflang="de" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Deutsch</a>
+            <a href="/ko/raw-to-jpg/" hreflang="ko" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>한국어</a>
+            <a href="/ja/raw-to-jpg/" hreflang="ja" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>日本語</a>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
@@ -85,7 +102,7 @@
       </div>
 
       <article class="section prose">
-        <h2>Why convert RAW to </h2>
+        <h2>Why convert RAW to JPG?</h2>
       <p>Every RAW file — whatever its three-letter extension — is the same idea: the unprocessed data read straight off your camera's sensor, before demosaicing, white balance, sharpening or compression. Camera makers each wrap that data in their own container (CR2 and CR3 from Canon, NEF from Nikon, ARW from Sony, RAF from Fujifilm, DNG from Adobe and others), which is why RAW is powerful for editing and painful for sharing.</p>
       <p>This converter speaks all of them. Drop in files from any major manufacturer — Canon, Nikon, Sony, Fujifilm, Panasonic, Olympus/OM System, Pentax, Leica, Hasselblad or DJI — and the LibRaw engine identifies and decodes each one automatically, applying the camera's recorded white balance.</p>
       <p>Converting RAW to JPG runs 100% in your browser via WebAssembly. Your photos never leave your device, there's no file-size quota, no watermark and no sign-up.</p>
@@ -204,5 +221,6 @@
   </footer>
 
   <script src="/assets/js/converter.js" defer></script>
+  <script src="/assets/js/lang-switch.js" defer></script>
 </body>
 </html>

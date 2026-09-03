@@ -7,6 +7,11 @@
   <meta name="description" content="Convert Canon CR3 RAW photos (EOS R, R5, R6, R7) to JPG online free. No upload, no watermark, unlimited batch — fully in-browser.">
   <link rel="canonical" href="https://shiftraw.com/cr3-to-jpg/">
   <meta name="robots" content="index,follow">
+  <link rel="alternate" hreflang="en" href="https://shiftraw.com/cr3-to-jpg/">
+  <link rel="alternate" hreflang="de" href="https://shiftraw.com/de/cr3-zu-jpg/">
+  <link rel="alternate" hreflang="ko" href="https://shiftraw.com/ko/cr3-to-jpg/">
+  <link rel="alternate" hreflang="ja" href="https://shiftraw.com/ja/cr3-to-jpg/">
+  <link rel="alternate" hreflang="x-default" href="https://shiftraw.com/cr3-to-jpg/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ShiftRaw">
   <meta property="og:title" content="CR3 to JPG Converter — Free, No Upload, Unlimited | ShiftRaw">
@@ -34,7 +39,19 @@
         <a href="/#tools">All Tools</a>
         <a href="/#how-it-works">How It Works</a>
         <a href="/#faq">FAQ</a>
-        <a href="/about/">About</a>
+        <div class="lang-switch" aria-label="Language">
+          <button class="lang-btn" type="button" aria-haspopup="true" aria-expanded="false">
+            <svg class="globe" viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+            <span>English</span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="lang-menu" role="menu">
+            <a href="/cr3-to-jpg/" hreflang="en" class="active" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>English</a>
+            <a href="/de/cr3-zu-jpg/" hreflang="de" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Deutsch</a>
+            <a href="/ko/cr3-to-jpg/" hreflang="ko" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>한국어</a>
+            <a href="/ja/cr3-to-jpg/" hreflang="ja" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>日本語</a>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
@@ -85,7 +102,7 @@
       </div>
 
       <article class="section prose">
-        <h2>Why convert CR3 to </h2>
+        <h2>Why convert CR3 to JPG?</h2>
       <p>CR3 is Canon's current RAW format, introduced in 2018 with the EOS M50 and used by every EOS R-series mirrorless camera since — the R5, R6, R7, R50, R100 and the rest. It replaces the older TIFF-based CR2 with a modern ISO Base Media File Format container (the same family as MP4), which enabled Canon's smaller C-RAW compressed variant.</p>
       <p>If you shoot an EOS R body you already know the friction: a full-frame CR3 from an R5 is 45 megapixels and roughly 45 MB, and while Adobe apps and Canon's DPP handle CR3 well, plenty of websites, chat apps, client portals and older laptops simply refuse it.</p>
       <p>Converting CR3 to JPG with ShiftRaw happens entirely inside your browser — the decoding is done by a WebAssembly build of LibRaw, the camera's white balance is applied automatically, and your full-resolution photos never leave your machine.</p>
@@ -204,5 +221,6 @@
   </footer>
 
   <script src="/assets/js/converter.js" defer></script>
+  <script src="/assets/js/lang-switch.js" defer></script>
 </body>
 </html>

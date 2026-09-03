@@ -7,6 +7,11 @@
   <meta name="description" content="Convert Fujifilm RAF RAW photos to JPG online free. Proper X-Trans demosaicing, no upload, no watermark, unlimited batch conversion.">
   <link rel="canonical" href="https://shiftraw.com/raf-to-jpg/">
   <meta name="robots" content="index,follow">
+  <link rel="alternate" hreflang="en" href="https://shiftraw.com/raf-to-jpg/">
+  <link rel="alternate" hreflang="de" href="https://shiftraw.com/de/raf-zu-jpg/">
+  <link rel="alternate" hreflang="ko" href="https://shiftraw.com/ko/raf-to-jpg/">
+  <link rel="alternate" hreflang="ja" href="https://shiftraw.com/ja/raf-to-jpg/">
+  <link rel="alternate" hreflang="x-default" href="https://shiftraw.com/raf-to-jpg/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ShiftRaw">
   <meta property="og:title" content="RAF to JPG Converter — Free, No Upload, Unlimited | ShiftRaw">
@@ -34,7 +39,19 @@
         <a href="/#tools">All Tools</a>
         <a href="/#how-it-works">How It Works</a>
         <a href="/#faq">FAQ</a>
-        <a href="/about/">About</a>
+        <div class="lang-switch" aria-label="Language">
+          <button class="lang-btn" type="button" aria-haspopup="true" aria-expanded="false">
+            <svg class="globe" viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+            <span>English</span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+          </button>
+          <div class="lang-menu" role="menu">
+            <a href="/raf-to-jpg/" hreflang="en" class="active" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>English</a>
+            <a href="/de/raf-zu-jpg/" hreflang="de" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Deutsch</a>
+            <a href="/ko/raf-to-jpg/" hreflang="ko" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>한국어</a>
+            <a href="/ja/raf-to-jpg/" hreflang="ja" role="menuitem"><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>日本語</a>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
@@ -85,7 +102,7 @@
       </div>
 
       <article class="section prose">
-        <h2>Why convert RAF to </h2>
+        <h2>Why convert RAF to JPG?</h2>
       <p>RAF is Fujifilm's RAW format, and Fujifilm is the interesting outlier in the RAW world: since 2012 its X-series cameras use X-Trans sensors with a 6×6 color filter array that deliberately avoids the Bayer pattern, trading demosaicing simplicity for reduced moiré and stronger color fidelity.</p>
       <p>That unusual sensor design is why RAF files need specific processing — generic converters that assume Bayer data render X-Trans files soft or artifacted. ShiftRaw's LibRaw engine includes proper X-Trans interpolation, so your files get the full-resolution treatment they deserve.</p>
       <p>Converting RAF to JPG happens entirely in your browser: the decoder is WebAssembly, the camera's white balance is applied, and your photos never touch a server.</p>
@@ -204,5 +221,6 @@
   </footer>
 
   <script src="/assets/js/converter.js" defer></script>
+  <script src="/assets/js/lang-switch.js" defer></script>
 </body>
 </html>

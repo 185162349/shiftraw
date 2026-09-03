@@ -1,0 +1,99 @@
+
+===== PAGE raf-to-jpg =====
+DESC: Convert Fujifilm RAF RAW photos to JPG online free. Proper X-Trans demosaicing, no upload, no watermark, unlimited batch conversion.
+SUBTITLE: Free, unlimited and 100% private - turn your RAF files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your RAF files here
+PROSE_H2: Why convert RAF to 
+PROSE0: RAF is Fujifilm's RAW format, and Fujifilm is the interesting outlier in the RAW world: since 2012 its X-series cameras use X-Trans sensors with a 6×6 color filter array that deliberately avoids the Bayer pattern, trading demosaicing simplicity for reduced moiré and stronger color fidelity.
+PROSE1: That unusual sensor design is why RAF files need specific processing — generic converters that assume Bayer data render X-Trans files soft or artifacted. ShiftRaw's LibRaw engine includes proper X-Trans interpolation, so your files get the full-resolution treatment they deserve.
+PROSE2: Converting RAF to JPG happens entirely in your browser: the decoder is WebAssembly, the camera's white balance is applied, and your photos never touch a server.
+PROSE3: <strong>Best for:</strong> JPG is the universal choice: every device, browser, app and platform displays it, and at 90%+ quality the compression is invisible. A 45-megapixel RAW frame converts to a 5–10 MB JPG that uploads anywhere. For web and client delivery it remains the sensible default — start here unless you specifically need transparency (PNG) or the smallest possible files (WebP).
+STEP1: Drop your .raf files onto the box above — X-T5, X-H2, X100VI or classic X-series files all work.
+STEP2: Choose your output format and quality; X-Trans demosaicing runs locally via WebAssembly.
+STEP3: Download your JPG images individually or all at once.
+ABOUT_H2: About the RAF format
+CARD0 [Developer]: Fujifilm
+CARD1 [Introduced]: Used across the X-series since 2011
+CARD2 [Sensor note]: X-Trans 6×6 color filter array (not Bayer)
+CARD3 [Color depth]: 14-bit per channel
+CARD4 [Typical size]: 30–50 MB for current 40 MP bodies
+CARD5 [Written by]: X-T4/X-T5, X-H2/X-H2S, X100VI, GFX (as RAF too)
+CARD6 [Special]: Lossless compression; film simulation metadata
+FAQ0Q: Why do RAF files look different in different apps?
+FAQ0A: X-Trans sensors need dedicated demosaicing, and every renderer interprets them slightly differently. Fujifilm's own apps apply film simulations on top of raw data; ShiftRaw renders a clean, neutral interpretation with as-shot white balance — a solid base for your own grading.
+FAQ1Q: Can this converter handle GFX medium-format RAF files?
+FAQ1A: Yes. GFX 50S/100S RAF files are large (100 MP from the GFX100 II) but supported — decoding just takes a few seconds longer. Memory-wise, the browser handles up to roughly 100 MP comfortably on a modern machine.
+FAQ2Q: What are film simulations and do they survive conversion?
+FAQ2A: Film simulations like Classic Chrome or Acros are rendering profiles applied when Fujifilm software develops the RAF. The raw file stores only the tag of the selected simulation. ShiftRaw outputs a neutral rendering; for the simulation look, shoot JPG+RAW or use Fujifilm's app.
+FAQ3Q: Why are RAF files bigger than same-megapixel Canon or Sony files?
+FAQ3A: Fujifilm stores the raw mosaic at 14-bit with lossless compression, and X-Trans's irregular pattern compresses less efficiently than Bayer. A 26 MP X-T4 RAF runs ~50 MB where a 24 MP Bayer RAW might be 25–35 MB.
+FAQ4Q: JPG or PNG — which should I choose?
+FAQ4A: JPG for photos: smaller files, universally supported, visually lossless at high quality. PNG for graphics that need transparency, screenshots, or when you must not lose a single pixel. For photographic work, JPG at 92% is the right call 95% of the time.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
+
+===== PAGE raf-to-png =====
+DESC: Convert Fujifilm RAF RAW photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.
+SUBTITLE: Free, unlimited and 100% private - convert your RAF files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your RAF files here
+PROSE_H2: Why convert RAF to 
+PROSE0: RAF is Fujifilm's RAW format, and Fujifilm is the interesting outlier in the RAW world: since 2012 its X-series cameras use X-Trans sensors with a 6×6 color filter array that deliberately avoids the Bayer pattern, trading demosaicing simplicity for reduced moiré and stronger color fidelity.
+PROSE1: That unusual sensor design is why RAF files need specific processing — generic converters that assume Bayer data render X-Trans files soft or artifacted. ShiftRaw's LibRaw engine includes proper X-Trans interpolation, so your files get the full-resolution treatment they deserve.
+PROSE2: Converting RAF to PNG happens entirely in your browser: the decoder is WebAssembly, the camera's white balance is applied, and your photos never touch a server.
+PROSE3: <strong>Best for:</strong> PNG is lossless — every pixel of the converted image is preserved exactly, with no compression artifacts, and it supports full alpha transparency. The trade-off is size: expect files 3–10× larger than an equivalent JPG. Choose PNG when quality is non-negotiable, when you need transparency, or when the image will be edited further before final delivery.
+STEP1: Drop your .raf files onto the box above — X-T5, X-H2, X100VI or classic X-series files all work.
+STEP2: Choose your output format and quality; X-Trans demosaicing runs locally via WebAssembly.
+STEP3: Download your PNG images individually or all at once.
+ABOUT_H2: About the RAF format
+CARD0 [Developer]: Fujifilm
+CARD1 [Introduced]: Used across the X-series since 2011
+CARD2 [Sensor note]: X-Trans 6×6 color filter array (not Bayer)
+CARD3 [Color depth]: 14-bit per channel
+CARD4 [Typical size]: 30–50 MB for current 40 MP bodies
+CARD5 [Written by]: X-T4/X-T5, X-H2/X-H2S, X100VI, GFX (as RAF too)
+CARD6 [Special]: Lossless compression; film simulation metadata
+FAQ0Q: Why do RAF files look different in different apps?
+FAQ0A: X-Trans sensors need dedicated demosaicing, and every renderer interprets them slightly differently. Fujifilm's own apps apply film simulations on top of raw data; ShiftRaw renders a clean, neutral interpretation with as-shot white balance — a solid base for your own grading.
+FAQ1Q: Can this converter handle GFX medium-format RAF files?
+FAQ1A: Yes. GFX 50S/100S RAF files are large (100 MP from the GFX100 II) but supported — decoding just takes a few seconds longer. Memory-wise, the browser handles up to roughly 100 MP comfortably on a modern machine.
+FAQ2Q: What are film simulations and do they survive conversion?
+FAQ2A: Film simulations like Classic Chrome or Acros are rendering profiles applied when Fujifilm software develops the RAF. The raw file stores only the tag of the selected simulation. ShiftRaw outputs a neutral rendering; for the simulation look, shoot JPG+RAW or use Fujifilm's app.
+FAQ3Q: Why are RAF files bigger than same-megapixel Canon or Sony files?
+FAQ3A: Fujifilm stores the raw mosaic at 14-bit with lossless compression, and X-Trans's irregular pattern compresses less efficiently than Bayer. A 26 MP X-T4 RAF runs ~50 MB where a 24 MP Bayer RAW might be 25–35 MB.
+FAQ4Q: When is PNG worth the larger file size?
+FAQ4A: When you need a pixel-perfect lossless copy, transparency, or plan to re-edit and re-save the file — PNG survives round-trips without quality loss. For straightforward photo sharing, JPG at high quality looks identical at a fraction of the size.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
+
+===== PAGE raf-to-webp =====
+DESC: Convert Fujifilm RAF RAW photos to WebP online free. 25–35% smaller than JPG, no upload, no watermark — 100% in your browser.
+SUBTITLE: Free, unlimited and 100% private - turn your RAF files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your RAF files here
+PROSE_H2: Why convert RAF to 
+PROSE0: RAF is Fujifilm's RAW format, and Fujifilm is the interesting outlier in the RAW world: since 2012 its X-series cameras use X-Trans sensors with a 6×6 color filter array that deliberately avoids the Bayer pattern, trading demosaicing simplicity for reduced moiré and stronger color fidelity.
+PROSE1: That unusual sensor design is why RAF files need specific processing — generic converters that assume Bayer data render X-Trans files soft or artifacted. ShiftRaw's LibRaw engine includes proper X-Trans interpolation, so your files get the full-resolution treatment they deserve.
+PROSE2: Converting RAF to WebP happens entirely in your browser: the decoder is WebAssembly, the camera's white balance is applied, and your photos never touch a server.
+PROSE3: <strong>Best for:</strong> WebP is the modern option: 25–35% smaller than JPG at the same visual quality, with alpha-channel support, and every current browser displays it. If your images are headed for the web — a site, blog, or web app — WebP is the best-performing choice and has been natively supported across all major browsers since 2020.
+STEP1: Drop your .raf files onto the box above — X-T5, X-H2, X100VI or classic X-series files all work.
+STEP2: Choose your output format and quality; X-Trans demosaicing runs locally via WebAssembly.
+STEP3: Download your WebP images individually or all at once.
+ABOUT_H2: About the RAF format
+CARD0 [Developer]: Fujifilm
+CARD1 [Introduced]: Used across the X-series since 2011
+CARD2 [Sensor note]: X-Trans 6×6 color filter array (not Bayer)
+CARD3 [Color depth]: 14-bit per channel
+CARD4 [Typical size]: 30–50 MB for current 40 MP bodies
+CARD5 [Written by]: X-T4/X-T5, X-H2/X-H2S, X100VI, GFX (as RAF too)
+CARD6 [Special]: Lossless compression; film simulation metadata
+FAQ0Q: Why do RAF files look different in different apps?
+FAQ0A: X-Trans sensors need dedicated demosaicing, and every renderer interprets them slightly differently. Fujifilm's own apps apply film simulations on top of raw data; ShiftRaw renders a clean, neutral interpretation with as-shot white balance — a solid base for your own grading.
+FAQ1Q: Can this converter handle GFX medium-format RAF files?
+FAQ1A: Yes. GFX 50S/100S RAF files are large (100 MP from the GFX100 II) but supported — decoding just takes a few seconds longer. Memory-wise, the browser handles up to roughly 100 MP comfortably on a modern machine.
+FAQ2Q: What are film simulations and do they survive conversion?
+FAQ2A: Film simulations like Classic Chrome or Acros are rendering profiles applied when Fujifilm software develops the RAF. The raw file stores only the tag of the selected simulation. ShiftRaw outputs a neutral rendering; for the simulation look, shoot JPG+RAW or use Fujifilm's app.
+FAQ3Q: Why are RAF files bigger than same-megapixel Canon or Sony files?
+FAQ3A: Fujifilm stores the raw mosaic at 14-bit with lossless compression, and X-Trans's irregular pattern compresses less efficiently than Bayer. A 26 MP X-T4 RAF runs ~50 MB where a 24 MP Bayer RAW might be 25–35 MB.
+FAQ4Q: Is WebP safe to use everywhere now?
+FAQ4A: On the web, yes — Chrome, Firefox, Safari and Edge all support it natively, and it now accounts for a large share of served images. Desktop software is the weak spot: older Photoshop, Office and viewer versions may not open it. For web use, choose WebP; for files that must open anywhere, choose JPG.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.

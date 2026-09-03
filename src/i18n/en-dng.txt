@@ -1,0 +1,99 @@
+
+===== PAGE dng-to-jpg =====
+DESC: Convert Adobe DNG files to JPG online free. Works with Leica, Pentax, DJI and Lightroom-converted DNGs. No upload, no watermark.
+SUBTITLE: Free, unlimited and 100% private - turn your DNG files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your DNG files here
+PROSE_H2: Why convert DNG to 
+PROSE0: DNG (Digital Negative) is Adobe's open RAW format, published in 2004 as a standardized alternative to the zoo of proprietary camera formats. Some cameras write DNG natively — Leica, Pentax, Ricoh, DJI drones, most Blackmagic cinema cameras — and Lightroom can convert any proprietary RAW into DNG for archival.
+PROSE1: Being open does not make DNG files any easier to share: they are still raw sensor data, still large, and still ignored by anything that isn't photo software. If you archived your library as DNG and now need web-ready images, a converter is the bridge.
+PROSE2: ShiftRaw converts DNG to JPG in your browser with no upload. The LibRaw engine handles both linear and mosaic DNG variants, and your files never leave your device.
+PROSE3: <strong>Best for:</strong> JPG is the universal choice: every device, browser, app and platform displays it, and at 90%+ quality the compression is invisible. A 45-megapixel RAW frame converts to a 5–10 MB JPG that uploads anywhere. For web and client delivery it remains the sensible default — start here unless you specifically need transparency (PNG) or the smallest possible files (WebP).
+STEP1: Drag your .dng files onto the box above — native DNGs from Leica, Pentax or DJI work, as do Lightroom-converted archives.
+STEP2: Pick the output format and quality. Processing is local and private, powered by WebAssembly.
+STEP3: Download your JPG files one at a time or as a batch.
+ABOUT_H2: About the DNG format
+CARD0 [Developer]: Adobe Inc. (open, documented specification)
+CARD1 [Introduced]: September 2004
+CARD2 [Container]: TIFF-EP based, openly documented
+CARD3 [Color depth]: Up to 16-bit; supports floating point variants
+CARD4 [Native cameras]: Leica M/SL/Q, Pentax K/645Z, DJI drones, Blackmagic
+CARD5 [Common use]: Archival conversion target for Lightroom users
+CARD6 [License]: Free, no royalties — a true open standard
+FAQ0Q: Is DNG better than proprietary RAW formats like CR2 or NEF?
+FAQ0A: DNG is better for archiving and portability: the specification is open, so software will likely be able to read it decades from now. Proprietary formats sometimes carry slightly more camera-specific data. Many photographers shoot proprietary RAW and archive to DNG — ShiftRaw converts either kind.
+FAQ1Q: Will converting DNG to JPG preserve my Lightroom edits?
+FAQ1A: Only if you exported the DNG from Lightroom with edits baked in, or exported a linear DNG. A plain raw DNG carries the original sensor data; ShiftRaw renders it with the embedded as-shot white balance.
+FAQ2Q: Why is my DNG file so big?
+FAQ2A: If the DNG is linear (fully demosaiced) or contains the original RAW embedded — an option in Lightroom's conversion settings — the file can be larger than the source RAW. For delivery purposes, converting to JPG typically reduces file size by 85–95%.
+FAQ3Q: Can I convert DNG back to CR2 or NEF?
+FAQ3A: No — proprietary camera formats are not openly writable, and DNG conversion is one-way. That's exactly why DNG exists as the archival endpoint, and why converting DNG to universally readable formats like JPG or PNG is the practical path for sharing.
+FAQ4Q: JPG or PNG — which should I choose?
+FAQ4A: JPG for photos: smaller files, universally supported, visually lossless at high quality. PNG for graphics that need transparency, screenshots, or when you must not lose a single pixel. For photographic work, JPG at 92% is the right call 95% of the time.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
+
+===== PAGE dng-to-png =====
+DESC: Convert Adobe DNG files to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.
+SUBTITLE: Free, unlimited and 100% private - convert your DNG files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your DNG files here
+PROSE_H2: Why convert DNG to 
+PROSE0: DNG (Digital Negative) is Adobe's open RAW format, published in 2004 as a standardized alternative to the zoo of proprietary camera formats. Some cameras write DNG natively — Leica, Pentax, Ricoh, DJI drones, most Blackmagic cinema cameras — and Lightroom can convert any proprietary RAW into DNG for archival.
+PROSE1: Being open does not make DNG files any easier to share: they are still raw sensor data, still large, and still ignored by anything that isn't photo software. If you archived your library as DNG and now need web-ready images, a converter is the bridge.
+PROSE2: ShiftRaw converts DNG to PNG in your browser with no upload. The LibRaw engine handles both linear and mosaic DNG variants, and your files never leave your device.
+PROSE3: <strong>Best for:</strong> PNG is lossless — every pixel of the converted image is preserved exactly, with no compression artifacts, and it supports full alpha transparency. The trade-off is size: expect files 3–10× larger than an equivalent JPG. Choose PNG when quality is non-negotiable, when you need transparency, or when the image will be edited further before final delivery.
+STEP1: Drag your .dng files onto the box above — native DNGs from Leica, Pentax or DJI work, as do Lightroom-converted archives.
+STEP2: Pick the output format and quality. Processing is local and private, powered by WebAssembly.
+STEP3: Download your PNG files one at a time or as a batch.
+ABOUT_H2: About the DNG format
+CARD0 [Developer]: Adobe Inc. (open, documented specification)
+CARD1 [Introduced]: September 2004
+CARD2 [Container]: TIFF-EP based, openly documented
+CARD3 [Color depth]: Up to 16-bit; supports floating point variants
+CARD4 [Native cameras]: Leica M/SL/Q, Pentax K/645Z, DJI drones, Blackmagic
+CARD5 [Common use]: Archival conversion target for Lightroom users
+CARD6 [License]: Free, no royalties — a true open standard
+FAQ0Q: Is DNG better than proprietary RAW formats like CR2 or NEF?
+FAQ0A: DNG is better for archiving and portability: the specification is open, so software will likely be able to read it decades from now. Proprietary formats sometimes carry slightly more camera-specific data. Many photographers shoot proprietary RAW and archive to DNG — ShiftRaw converts either kind.
+FAQ1Q: Will converting DNG to JPG preserve my Lightroom edits?
+FAQ1A: Only if you exported the DNG from Lightroom with edits baked in, or exported a linear DNG. A plain raw DNG carries the original sensor data; ShiftRaw renders it with the embedded as-shot white balance.
+FAQ2Q: Why is my DNG file so big?
+FAQ2A: If the DNG is linear (fully demosaiced) or contains the original RAW embedded — an option in Lightroom's conversion settings — the file can be larger than the source RAW. For delivery purposes, converting to JPG typically reduces file size by 85–95%.
+FAQ3Q: Can I convert DNG back to CR2 or NEF?
+FAQ3A: No — proprietary camera formats are not openly writable, and DNG conversion is one-way. That's exactly why DNG exists as the archival endpoint, and why converting DNG to universally readable formats like JPG or PNG is the practical path for sharing.
+FAQ4Q: When is PNG worth the larger file size?
+FAQ4A: When you need a pixel-perfect lossless copy, transparency, or plan to re-edit and re-save the file — PNG survives round-trips without quality loss. For straightforward photo sharing, JPG at high quality looks identical at a fraction of the size.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
+
+===== PAGE dng-to-webp =====
+DESC: Convert Adobe DNG files to WebP online free. 25–35% smaller than JPG, no upload, no watermark — 100% in your browser.
+SUBTITLE: Free, unlimited and 100% private - turn your DNG files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your DNG files here
+PROSE_H2: Why convert DNG to 
+PROSE0: DNG (Digital Negative) is Adobe's open RAW format, published in 2004 as a standardized alternative to the zoo of proprietary camera formats. Some cameras write DNG natively — Leica, Pentax, Ricoh, DJI drones, most Blackmagic cinema cameras — and Lightroom can convert any proprietary RAW into DNG for archival.
+PROSE1: Being open does not make DNG files any easier to share: they are still raw sensor data, still large, and still ignored by anything that isn't photo software. If you archived your library as DNG and now need web-ready images, a converter is the bridge.
+PROSE2: ShiftRaw converts DNG to WebP in your browser with no upload. The LibRaw engine handles both linear and mosaic DNG variants, and your files never leave your device.
+PROSE3: <strong>Best for:</strong> WebP is the modern option: 25–35% smaller than JPG at the same visual quality, with alpha-channel support, and every current browser displays it. If your images are headed for the web — a site, blog, or web app — WebP is the best-performing choice and has been natively supported across all major browsers since 2020.
+STEP1: Drag your .dng files onto the box above — native DNGs from Leica, Pentax or DJI work, as do Lightroom-converted archives.
+STEP2: Pick the output format and quality. Processing is local and private, powered by WebAssembly.
+STEP3: Download your WebP files one at a time or as a batch.
+ABOUT_H2: About the DNG format
+CARD0 [Developer]: Adobe Inc. (open, documented specification)
+CARD1 [Introduced]: September 2004
+CARD2 [Container]: TIFF-EP based, openly documented
+CARD3 [Color depth]: Up to 16-bit; supports floating point variants
+CARD4 [Native cameras]: Leica M/SL/Q, Pentax K/645Z, DJI drones, Blackmagic
+CARD5 [Common use]: Archival conversion target for Lightroom users
+CARD6 [License]: Free, no royalties — a true open standard
+FAQ0Q: Is DNG better than proprietary RAW formats like CR2 or NEF?
+FAQ0A: DNG is better for archiving and portability: the specification is open, so software will likely be able to read it decades from now. Proprietary formats sometimes carry slightly more camera-specific data. Many photographers shoot proprietary RAW and archive to DNG — ShiftRaw converts either kind.
+FAQ1Q: Will converting DNG to JPG preserve my Lightroom edits?
+FAQ1A: Only if you exported the DNG from Lightroom with edits baked in, or exported a linear DNG. A plain raw DNG carries the original sensor data; ShiftRaw renders it with the embedded as-shot white balance.
+FAQ2Q: Why is my DNG file so big?
+FAQ2A: If the DNG is linear (fully demosaiced) or contains the original RAW embedded — an option in Lightroom's conversion settings — the file can be larger than the source RAW. For delivery purposes, converting to JPG typically reduces file size by 85–95%.
+FAQ3Q: Can I convert DNG back to CR2 or NEF?
+FAQ3A: No — proprietary camera formats are not openly writable, and DNG conversion is one-way. That's exactly why DNG exists as the archival endpoint, and why converting DNG to universally readable formats like JPG or PNG is the practical path for sharing.
+FAQ4Q: Is WebP safe to use everywhere now?
+FAQ4A: On the web, yes — Chrome, Firefox, Safari and Edge all support it natively, and it now accounts for a large share of served images. Desktop software is the weak spot: older Photoshop, Office and viewer versions may not open it. For web use, choose WebP; for files that must open anywhere, choose JPG.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.

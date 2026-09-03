@@ -1,0 +1,99 @@
+
+===== PAGE cr3-to-jpg =====
+DESC: Convert Canon CR3 RAW photos (EOS R, R5, R6, R7) to JPG online free. No upload, no watermark, unlimited batch — fully in-browser.
+SUBTITLE: Free, unlimited and 100% private - turn your CR3 files into share-ready JPGs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your CR3 files here
+PROSE_H2: Why convert CR3 to 
+PROSE0: CR3 is Canon's current RAW format, introduced in 2018 with the EOS M50 and used by every EOS R-series mirrorless camera since — the R5, R6, R7, R50, R100 and the rest. It replaces the older TIFF-based CR2 with a modern ISO Base Media File Format container (the same family as MP4), which enabled Canon's smaller C-RAW compressed variant.
+PROSE1: If you shoot an EOS R body you already know the friction: a full-frame CR3 from an R5 is 45 megapixels and roughly 45 MB, and while Adobe apps and Canon's DPP handle CR3 well, plenty of websites, chat apps, client portals and older laptops simply refuse it.
+PROSE2: Converting CR3 to JPG with ShiftRaw happens entirely inside your browser — the decoding is done by a WebAssembly build of LibRaw, the camera's white balance is applied automatically, and your full-resolution photos never leave your machine.
+PROSE3: <strong>Best for:</strong> JPG is the universal choice: every device, browser, app and platform displays it, and at 90%+ quality the compression is invisible. A 45-megapixel RAW frame converts to a 5–10 MB JPG that uploads anywhere. For web and client delivery it remains the sensible default — start here unless you specifically need transparency (PNG) or the smallest possible files (WebP).
+STEP1: Drop your .cr3 files onto the box above — R5, R6, R7 or R100 files all work, batches included.
+STEP2: Choose the output format and quality. Decoding runs locally in your browser via WebAssembly; no upload, no queue, no watermark.
+STEP3: Hit Download all and your JPG files land in your downloads folder, full resolution, no sign-up.
+ABOUT_H2: About the CR3 format
+CARD0 [Developer]: Canon Inc.
+CARD1 [Introduced]: 2018, with the EOS M50
+CARD2 [Container]: ISO Base Media File Format (MP4 family)
+CARD3 [Color depth]: 12-bit or 14-bit per channel
+CARD4 [Typical size]: 30–48 MB full-frame; ~40% smaller as C-RAW
+CARD5 [Written by]: EOS R5, R6, R6 II, R7, R8, R50, R100, M50, 90D
+CARD6 [Difference from CR2]: New container + optional C-RAW compression
+FAQ0Q: What's the difference between CR3 and C-RAW?
+FAQ0A: C-RAW is a compressed flavor stored inside a CR3 file. A standard CR3 from a 45 MP R5 is about 45 MB; the same frame as C-RAW is roughly 27 MB with minimal visible difference. Both decode identically in ShiftRaw — just drop the file in and convert.
+FAQ1Q: Can I convert CR3 to JPG without Lightroom or DPP?
+FAQ1A: Yes. ShiftRaw decodes CR3 in your browser using a WebAssembly build of LibRaw, so there is nothing to install and no subscription to buy. Lightroom remains the tool for developing and cataloguing, but for a quick, full-quality JPG export this is faster.
+FAQ2Q: Why are my CR3 files so large?
+FAQ2A: Modern Canon sensors are 24–45 megapixels and RAW stores every photosite at 14-bit depth before compression. Large files are the price of latitude in editing. Converting to JPG typically shrinks an R5 frame from ~45 MB to 5–10 MB while keeping web-sharp quality.
+FAQ3Q: Is CR3 going away?
+FAQ3A: Not soon. It is Canon's only current RAW format across both EOS R and EOS M lines. Canon has not announced a successor, so a CR3 workflow — including converting to JPG for delivery — will stay relevant for years.
+FAQ4Q: JPG or PNG — which should I choose?
+FAQ4A: JPG for photos: smaller files, universally supported, visually lossless at high quality. PNG for graphics that need transparency, screenshots, or when you must not lose a single pixel. For photographic work, JPG at 92% is the right call 95% of the time.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
+
+===== PAGE cr3-to-png =====
+DESC: Convert Canon CR3 RAW photos to PNG online free. Lossless quality, no upload, no watermark, unlimited batch — 100% in-browser.
+SUBTITLE: Free, unlimited and 100% private - convert your CR3 files to lossless PNGs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your CR3 files here
+PROSE_H2: Why convert CR3 to 
+PROSE0: CR3 is Canon's current RAW format, introduced in 2018 with the EOS M50 and used by every EOS R-series mirrorless camera since — the R5, R6, R7, R50, R100 and the rest. It replaces the older TIFF-based CR2 with a modern ISO Base Media File Format container (the same family as MP4), which enabled Canon's smaller C-RAW compressed variant.
+PROSE1: If you shoot an EOS R body you already know the friction: a full-frame CR3 from an R5 is 45 megapixels and roughly 45 MB, and while Adobe apps and Canon's DPP handle CR3 well, plenty of websites, chat apps, client portals and older laptops simply refuse it.
+PROSE2: Converting CR3 to PNG with ShiftRaw happens entirely inside your browser — the decoding is done by a WebAssembly build of LibRaw, the camera's white balance is applied automatically, and your full-resolution photos never leave your machine.
+PROSE3: <strong>Best for:</strong> PNG is lossless — every pixel of the converted image is preserved exactly, with no compression artifacts, and it supports full alpha transparency. The trade-off is size: expect files 3–10× larger than an equivalent JPG. Choose PNG when quality is non-negotiable, when you need transparency, or when the image will be edited further before final delivery.
+STEP1: Drop your .cr3 files onto the box above — R5, R6, R7 or R100 files all work, batches included.
+STEP2: Choose the output format and quality. Decoding runs locally in your browser via WebAssembly; no upload, no queue, no watermark.
+STEP3: Hit Download all and your PNG files land in your downloads folder, full resolution, no sign-up.
+ABOUT_H2: About the CR3 format
+CARD0 [Developer]: Canon Inc.
+CARD1 [Introduced]: 2018, with the EOS M50
+CARD2 [Container]: ISO Base Media File Format (MP4 family)
+CARD3 [Color depth]: 12-bit or 14-bit per channel
+CARD4 [Typical size]: 30–48 MB full-frame; ~40% smaller as C-RAW
+CARD5 [Written by]: EOS R5, R6, R6 II, R7, R8, R50, R100, M50, 90D
+CARD6 [Difference from CR2]: New container + optional C-RAW compression
+FAQ0Q: What's the difference between CR3 and C-RAW?
+FAQ0A: C-RAW is a compressed flavor stored inside a CR3 file. A standard CR3 from a 45 MP R5 is about 45 MB; the same frame as C-RAW is roughly 27 MB with minimal visible difference. Both decode identically in ShiftRaw — just drop the file in and convert.
+FAQ1Q: Can I convert CR3 to JPG without Lightroom or DPP?
+FAQ1A: Yes. ShiftRaw decodes CR3 in your browser using a WebAssembly build of LibRaw, so there is nothing to install and no subscription to buy. Lightroom remains the tool for developing and cataloguing, but for a quick, full-quality JPG export this is faster.
+FAQ2Q: Why are my CR3 files so large?
+FAQ2A: Modern Canon sensors are 24–45 megapixels and RAW stores every photosite at 14-bit depth before compression. Large files are the price of latitude in editing. Converting to JPG typically shrinks an R5 frame from ~45 MB to 5–10 MB while keeping web-sharp quality.
+FAQ3Q: Is CR3 going away?
+FAQ3A: Not soon. It is Canon's only current RAW format across both EOS R and EOS M lines. Canon has not announced a successor, so a CR3 workflow — including converting to JPG for delivery — will stay relevant for years.
+FAQ4Q: When is PNG worth the larger file size?
+FAQ4A: When you need a pixel-perfect lossless copy, transparency, or plan to re-edit and re-save the file — PNG survives round-trips without quality loss. For straightforward photo sharing, JPG at high quality looks identical at a fraction of the size.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
+
+===== PAGE cr3-to-webp =====
+DESC: Convert Canon CR3 RAW photos to WebP online free. Smaller files for the web, no upload, no watermark — 100% in your browser.
+SUBTITLE: Free, unlimited and 100% private - turn your CR3 files into lightweight WebPs right in your browser. No upload, no watermark, no sign-up.
+DZ: Drop your CR3 files here
+PROSE_H2: Why convert CR3 to 
+PROSE0: CR3 is Canon's current RAW format, introduced in 2018 with the EOS M50 and used by every EOS R-series mirrorless camera since — the R5, R6, R7, R50, R100 and the rest. It replaces the older TIFF-based CR2 with a modern ISO Base Media File Format container (the same family as MP4), which enabled Canon's smaller C-RAW compressed variant.
+PROSE1: If you shoot an EOS R body you already know the friction: a full-frame CR3 from an R5 is 45 megapixels and roughly 45 MB, and while Adobe apps and Canon's DPP handle CR3 well, plenty of websites, chat apps, client portals and older laptops simply refuse it.
+PROSE2: Converting CR3 to WebP with ShiftRaw happens entirely inside your browser — the decoding is done by a WebAssembly build of LibRaw, the camera's white balance is applied automatically, and your full-resolution photos never leave your machine.
+PROSE3: <strong>Best for:</strong> WebP is the modern option: 25–35% smaller than JPG at the same visual quality, with alpha-channel support, and every current browser displays it. If your images are headed for the web — a site, blog, or web app — WebP is the best-performing choice and has been natively supported across all major browsers since 2020.
+STEP1: Drop your .cr3 files onto the box above — R5, R6, R7 or R100 files all work, batches included.
+STEP2: Choose the output format and quality. Decoding runs locally in your browser via WebAssembly; no upload, no queue, no watermark.
+STEP3: Hit Download all and your WebP files land in your downloads folder, full resolution, no sign-up.
+ABOUT_H2: About the CR3 format
+CARD0 [Developer]: Canon Inc.
+CARD1 [Introduced]: 2018, with the EOS M50
+CARD2 [Container]: ISO Base Media File Format (MP4 family)
+CARD3 [Color depth]: 12-bit or 14-bit per channel
+CARD4 [Typical size]: 30–48 MB full-frame; ~40% smaller as C-RAW
+CARD5 [Written by]: EOS R5, R6, R6 II, R7, R8, R50, R100, M50, 90D
+CARD6 [Difference from CR2]: New container + optional C-RAW compression
+FAQ0Q: What's the difference between CR3 and C-RAW?
+FAQ0A: C-RAW is a compressed flavor stored inside a CR3 file. A standard CR3 from a 45 MP R5 is about 45 MB; the same frame as C-RAW is roughly 27 MB with minimal visible difference. Both decode identically in ShiftRaw — just drop the file in and convert.
+FAQ1Q: Can I convert CR3 to JPG without Lightroom or DPP?
+FAQ1A: Yes. ShiftRaw decodes CR3 in your browser using a WebAssembly build of LibRaw, so there is nothing to install and no subscription to buy. Lightroom remains the tool for developing and cataloguing, but for a quick, full-quality JPG export this is faster.
+FAQ2Q: Why are my CR3 files so large?
+FAQ2A: Modern Canon sensors are 24–45 megapixels and RAW stores every photosite at 14-bit depth before compression. Large files are the price of latitude in editing. Converting to JPG typically shrinks an R5 frame from ~45 MB to 5–10 MB while keeping web-sharp quality.
+FAQ3Q: Is CR3 going away?
+FAQ3A: Not soon. It is Canon's only current RAW format across both EOS R and EOS M lines. Canon has not announced a successor, so a CR3 workflow — including converting to JPG for delivery — will stay relevant for years.
+FAQ4Q: Is WebP safe to use everywhere now?
+FAQ4A: On the web, yes — Chrome, Firefox, Safari and Edge all support it natively, and it now accounts for a large share of served images. Desktop software is the weak spot: older Photoshop, Office and viewer versions may not open it. For web use, choose WebP; for files that must open anywhere, choose JPG.
+FAQ5Q: Is there a file size or batch limit?
+FAQ5A: No hard limits. Files are processed one by one entirely on your device, so the practical ceiling is your machine's memory - a 100 MP medium-format RAW decodes comfortably on any modern computer. Large batches simply queue and run sequentially.
