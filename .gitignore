@@ -16,6 +16,6 @@ Desktop.ini
 .idea/
 *.swp
 
-# 日志
+# 日志1
 *.log
 npm-debug.log*
