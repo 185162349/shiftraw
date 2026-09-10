@@ -1,0 +1,44 @@
+# ShiftRaw
+
+> ShiftRaw is a free, browser-based image converter. It converts camera RAW photos (CR2, CR3, NEF, ARW, DNG, RAF and 20+ more), HEIC and WebP to JPG, PNG or WebP — 100% locally in the browser, no upload, no watermark, no limits, no sign-up. Powered by a WebAssembly build of LibRaw.
+
+## Converters
+
+- [RAW to JPG](https://shiftraw.com/raw-to-jpg/): Convert any RAW file (CR2, CR3, NEF, ARW, DNG, RAF, ORF, RW2, PEF and 20+ formats) to JPG.
+- [RAW to PNG](https://shiftraw.com/raw-to-png/): Convert any RAW file to a lossless PNG in the browser.
+- [RAW to WebP](https://shiftraw.com/raw-to-webp/): Convert any RAW file to WebP, 25–35% smaller than JPG.
+- [CR2 to JPG](https://shiftraw.com/cr2-to-jpg/): Convert Canon CR2 files (EOS DSLRs from 2004–2018) to JPG.
+- [CR2 to PNG](https://shiftraw.com/cr2-to-png/): Convert Canon CR2 files to lossless PNG.
+- [CR2 to WebP](https://shiftraw.com/cr2-to-webp/): Convert Canon CR2 files to WebP.
+- [CR3 to JPG](https://shiftraw.com/cr3-to-jpg/): Convert Canon CR3 files (EOS R, R5, R6, R7, R50, R100) to JPG.
+- [CR3 to PNG](https://shiftraw.com/cr3-to-png/): Convert Canon CR3 files to lossless PNG.
+- [CR3 to WebP](https://shiftraw.com/cr3-to-webp/): Convert Canon CR3 files to WebP.
+- [NEF to JPG](https://shiftraw.com/nef-to-jpg/): Convert Nikon NEF files (D1–D850 DSLRs, Z5–Z9 mirrorless) to JPG.
+- [NEF to PNG](https://shiftraw.com/nef-to-png/): Convert Nikon NEF files to lossless PNG.
+- [NEF to WebP](https://shiftraw.com/nef-to-webp/): Convert Nikon NEF files to WebP.
+- [ARW to JPG](https://shiftraw.com/arw-to-jpg/): Convert Sony ARW files (a7, a9, a6000-series) to JPG.
+- [ARW to PNG](https://shiftraw.com/arw-to-png/): Convert Sony ARW files to lossless PNG.
+- [ARW to WebP](https://shiftraw.com/arw-to-webp/): Convert Sony ARW files to WebP.
+- [DNG to JPG](https://shiftraw.com/dng-to-jpg/): Convert Adobe DNG files (Leica, Pentax, DJI, Lightroom-converted) to JPG.
+- [DNG to PNG](https://shiftraw.com/dng-to-png/): Convert Adobe DNG files to lossless PNG.
+- [DNG to WebP](https://shiftraw.com/dng-to-webp/): Convert Adobe DNG files to WebP.
+- [RAF to JPG](https://shiftraw.com/raf-to-jpg/): Convert Fujifilm RAF files (X-T, X-H, X100, GFX) to JPG with proper X-Trans demosaicing.
+- [RAF to PNG](https://shiftraw.com/raf-to-png/): Convert Fujifilm RAF files to lossless PNG.
+- [RAF to WebP](https://shiftraw.com/raf-to-webp/): Convert Fujifilm RAF files to WebP.
+- [HEIC to JPG](https://shiftraw.com/heic-to-jpg/): Convert iPhone HEIC/HEIF files to JPG on any device.
+- [HEIC to PNG](https://shiftraw.com/heic-to-png/): Convert iPhone HEIC/HEIF files to lossless PNG.
+- [HEIC to WebP](https://shiftraw.com/heic-to-webp/): Convert iPhone HEIC/HEIF files to WebP.
+- [WebP to JPG](https://shiftraw.com/webp-to-jpg/): Convert WebP images to JPG (Universal).
+- [WebP to PNG](https://shiftraw.com/webp-to-png/): Convert WebP images to lossless PNG.
+
+## Multilingual versions
+
+- [Deutsch](https://shiftraw.com/de/): All converters localized in German.
+- [한국어](https://shiftraw.com/ko/): All converters localized in Korean.
+- [日本語](https://shiftraw.com/ja/): All converters localized in Japanese.
+
+## Company
+
+- [About](https://shiftraw.com/about/): What ShiftRaw is and how local conversion works.
+- [Privacy Policy](https://shiftraw.com/privacy/): Files are processed locally and never uploaded.
+- [Contact](https://shiftraw.com/contact/): Get in touch.
